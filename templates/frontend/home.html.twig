@@ -1,0 +1,890 @@
+{% extends 'frontend/base.html.twig' %}
+
+{% block title 'Portfolio' %}
+
+{% block description %}{% endblock %}
+
+{% block stylesheets %}
+<style type="text/css">
+.ml15 .word {
+  display: inline-block;
+  line-height: 1em;
+}
+.y-scroll {
+	overflow-y: hidden;
+	/* position: relative; */
+}
+.mh-135 {
+	max-height: 137px;
+}
+.y-scroll img {
+	position: relative;
+	animation: scrolling-top 15s linear 0s infinite alternate;
+}
+
+@keyframes scrolling-top {
+	0%   {top:0px;}
+	25%  {top:-350px;}
+	50%  {top:-350px;}
+	75%  {top:-350px;}
+	100% {top:0px;}
+}
+</style>
+{% endblock %}
+
+{% block body %}
+	<!-- ============ HOME ============ -->
+	<section id="home" class="home section">
+		<div class="home__container container grid">
+			<div class="home__data">
+				<span class="home__greeting">{% trans %}Hello, I'm{% endtrans %}</span>
+				<h1 class="home__name ml15">
+					<span class="_word">Moussa</span>
+					<span class="_word">Fofana</span>
+				</h1>
+				<h3 class="home__education">DevOps, {% trans %}Senior FullStack Developer{% endtrans %}</h3>
+
+				<div class="home__buttons">
+					<a href="{{path('cv')}}" target="_blank" class="button button--ghost">{% trans %}My CV{% endtrans %}</a>
+					<a href="#about" class="button">{% trans %}About me{% endtrans %}</a>
+				</div>
+			</div>
+
+			<div class="home__handle">
+				<img src="{{asset('assets/img/muss_profil.webp')}}" alt="Moussa Fofana" class="home__img">
+			</div>
+
+			<div class="home__social">
+				<a href="https://www.linkedin.com/in/moussa-fofana-9550821a9/" target="__blank" class="home__social-link">
+					<i class='bx bxl-linkedin-square' ></i>
+				</a>
+				<a href="https://github.com/Muss147" target="__blank" class="home__social-link">
+					<i class='bx bxl-github' ></i>
+				</a>
+				<a href="https://dribbble.com/mFofana47" target="__blank" class="home__social-link">
+					<i class='bx bxl-dribbble' ></i>
+				</a>
+			</div>
+
+			<a href="#about" class="home__scroll">
+				<i class='bx bx-mouse home__scroll-icon' ></i>
+				<span class="home__scroll-name">{% trans %}Scroll Down{% endtrans %}</span>
+			</a>
+		</div>
+	</section>
+
+	<!-- ============ ABOUT ============ -->
+	<section id="about" class="about section">
+		<span class="section__subtitle">{% trans %}My Intro{% endtrans %}</span>
+		<h2 class="section__title">{% trans %}About Me{% endtrans %}</h2>
+
+		<div class="about__container container grid">
+			<img src="{{asset('assets/img/muss_about.webp')}}" alt="Moussa Fofana" class="about__img">
+
+			<div class="about__data">
+				<div class="about__info">
+					<div class="about__box">
+						<i class='bx bx-award about-icon' ></i>
+						<h3 class="about__title">{% trans %}Experience{% endtrans %}</h3>
+						<span class="about__subtitle">{% trans %}8 Years Working{% endtrans %}</span>
+					</div>
+					<div class="about__box">
+						<i class='bx bx-briefcase-alt about-icon' ></i>
+						<h3 class="about__title">{% trans %}Completed{% endtrans %}</h3>
+						<span class="about__subtitle">{% trans %}28 + Projects{% endtrans %}</span>
+					</div>
+					<div class="about__box">
+						<i class='bx bx-support about-icon' ></i>
+						<h3 class="about__title">{% trans %}Support{% endtrans %}</h3>
+						<span class="about__subtitle">{% trans %}Online 24/7{% endtrans %}</span>
+					</div>
+				</div>
+
+				<p class="about__description">
+					{% trans %}Welcome to my portfolio! I'm a coding enthusiast who loves to create and tinker with applications. My skills in web and mobile development enable me to design unique and modern interfaces while ensuring unprecedented performance. All of my projects are created with love and optimized for top-notch user experience. So, if you're looking for a full-stack developer who knows what he's doing and can deliver a high-quality website, don't hesitate to contact me!{% endtrans %}
+				</p>
+
+				<a href="#contact" class="button">{% trans %}Contact Me{% endtrans %}</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- ============ SKILLS ============ -->
+	<section id="skills" class="skills section">
+		<span class="section__subtitle">{% trans %}My abilities{% endtrans %}</span>
+		<h2 class="section__title">{% trans %}My Experience{% endtrans %}</h2>
+
+		<div class="skills__container container grid">
+			<div class="skills__content">
+				<h3 class="skills__title">{% trans %}Frontend Developer{% endtrans %}</h3>
+
+				<div class="skills__box">
+					<div class="skills__group">
+						<div class="skills__data">
+							<i class='bx bxs-badge-check' ></i>
+
+							<div>
+								<h3 class="skills__name">HTML5/CSS3</h3>
+								<span class="skills__level">{% trans %}Advanced{% endtrans %}</span>
+							</div>
+						</div>
+						<div class="skills__data">
+							<i class='bx bxs-badge-check' ></i>
+
+							<div>
+								<h3 class="skills__name">JavaScript / VueJS</h3>
+								<span class="skills__level">{% trans %}Intermediate{% endtrans %}</span>
+							</div>
+						</div>
+						<div class="skills__data">
+							<i class='bx bxs-badge-check' ></i>
+
+							<div>
+								<h3 class="skills__name">React JS / React Native</h3>
+								<span class="skills__level">{% trans %}Basic{% endtrans %}</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="skills__group">
+						<div class="skills__data">
+							<i class='bx bxs-badge-check' ></i>
+
+							<div>
+								<h3 class="skills__name">Flutter / Dart</h3>
+								<span class="skills__level">{% trans %}Basic{% endtrans %}</span>
+							</div>
+						</div>
+						<div class="skills__data">
+							<i class='bx bxs-badge-check' ></i>
+
+							<div>
+								<h3 class="skills__name">TailsWind CSS/Bootstrap5</h3>
+								<span class="skills__level">{% trans %}Advanced{% endtrans %}</span>
+							</div>
+						</div>
+						<div class="skills__data">
+							<i class='bx bxs-badge-check' ></i>
+
+							<div>
+								<h3 class="skills__name">Github / Docker</h3>
+								<span class="skills__level">{% trans %}Basic{% endtrans %}</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="skills__content">
+				<h3 class="skills__title">{% trans %}Backend Developer / Database{% endtrans %}</h3>
+
+				<div class="skills__box">
+					<div class="skills__group">
+						<div class="skills__data">
+							<i class='bx bxs-badge-check' ></i>
+
+							<div>
+								<h3 class="skills__name">PHP 7/8</h3>
+								<span class="skills__level">{% trans %}Advanced{% endtrans %}</span>
+							</div>
+						</div>
+						<div class="skills__data">
+							<i class='bx bxs-badge-check' ></i>
+
+							<div>
+								<h3 class="skills__name">Symfony / Laravel</h3>
+								<span class="skills__level">{% trans %}Intermediate{% endtrans %}</span>
+							</div>
+						</div>
+						<div class="skills__data">
+							<i class='bx bxs-badge-check' ></i>
+
+							<div>
+								<h3 class="skills__name">Django</h3>
+								<span class="skills__level">{% trans %}Basic{% endtrans %}</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="skills__group">
+						<div class="skills__data">
+							<i class='bx bxs-badge-check' ></i>
+
+							<div>
+								<h3 class="skills__name">MySQL DB</h3>
+								<span class="skills__level">{% trans %}Intermediate{% endtrans %}</span>
+							</div>
+						</div>
+						<div class="skills__data">
+							<i class='bx bxs-badge-check' ></i>
+
+							<div>
+								<h3 class="skills__name">Oracle DB</h3>
+								<span class="skills__level">{% trans %}Basic{% endtrans %}</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ============ SERVICES ============ -->
+	<section class="services section">
+		<span class="section__subtitle">{% trans %}My Services{% endtrans %}</span>
+		<h2 class="section__title">{% trans %}What I Offer{% endtrans %}</h2>
+
+		<div class="services__container container grid">
+			<div class="services__card">
+				<h3 class="services__title">{% trans %}Web <br> Developer{% endtrans %}</h3>
+
+				<span class="services__button">
+					{% trans %}See more{% endtrans %} <i class='bx bx-right-arrow-alt services__icon' ></i>
+				</span>
+
+				<div class="services__modal">
+					<div class="services__modal-content">
+						<i class='bx bx-x services__modal-close' ></i>
+
+						<h3 class="services__modal-title">{% trans %}Web Developer{% endtrans %}</h3>
+						<p class="services__modal-description">
+							{% trans %}I create custom websites for businesses or individuals. Using programming languages and development tools 
+							I design functional and attractive websites that meet your specific needs:{% endtrans %}
+						</p>
+
+						<ul class="services__modal-list">
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}I develop the user interface.{% endtrans %}
+								</p>
+							</li>
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Web application development.{% endtrans %}
+								</p>
+							</li>
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Search engine optimization.{% endtrans %}
+								</p>
+							</li>
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Integration of third-party systems and applications.{% endtrans %}
+								</p>
+							</li>
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Maintenance and support of websites.{% endtrans %}
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="services__card">
+				<h3 class="services__title">{% trans %}Mobile <br> Developer{% endtrans %}</h3>
+
+				<span class="services__button">
+					{% trans %}See more{% endtrans %} <i class='bx bx-right-arrow-alt services__icon' ></i>
+				</span>
+
+				<div class="services__modal">
+					<div class="services__modal-content">
+						<i class='bx bx-x services__modal-close' ></i>
+
+						<h3 class="services__modal-title">{% trans %}Mobile Developer{% endtrans %}</h3>
+						<p class="services__modal-description">
+							{% trans %}Using technologies such as Flutter and Dart, I develop high-performance, cross-platform, attractive mobile applications tailored to your specific needs:{% endtrans %}
+						</p>
+
+						<ul class="services__modal-list">
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}User interface development.{% endtrans %}
+								</p>
+							</li>
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Cross-platform application development.{% endtrans %}
+								</p>
+							</li>
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Integration of advanced functions.{% endtrans %}
+								</p>
+							</li>
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Application maintenance and support.{% endtrans %}
+								</p>
+							</li>
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Deployment on Stores.{% endtrans %}
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="services__card">
+				<h3 class="services__title">DevOps</h3>
+
+				<span class="services__button">
+					{% trans %}See more{% endtrans %} <i class='bx bx-right-arrow-alt services__icon' ></i>
+				</span>
+
+				<div class="services__modal">
+					<div class="services__modal-content">
+						<i class='bx bx-x services__modal-close' ></i>
+
+						<h3 class="services__modal-title">DevOps</h3>
+						<p class="services__modal-description">
+							{% trans %}I offer DevOps services for businesses to facilitate and automate the software development lifecycle. By using modern tools and practices, I help improve the efficiency, collaboration, and continuous delivery of your applications:{% endtrans %}
+						</p>
+
+						<ul class="services__modal-list">
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Continuous Integration and Continuous Delivery (CI/CD).{% endtrans %}
+								</p>
+							</li>
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Infrastructure Management.{% endtrans %}
+								</p>
+							</li>
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Performance Monitoring and Management.{% endtrans %}
+								</p>
+							</li>
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}DevOps Security.{% endtrans %}
+								</p>
+							</li>
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Version and Configuration Management.{% endtrans %}
+								</p>
+							</li>
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Test Automation.{% endtrans %}
+								</p>
+							</li>
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Development Workflow Optimization.{% endtrans %}
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="services__card">
+				<h3 class="services__title">Community <br> Manager</h3>
+
+				<span class="services__button">
+					{% trans %}See more{% endtrans %} <i class='bx bx-right-arrow-alt services__icon' ></i>
+				</span>
+
+				<div class="services__modal">
+					<div class="services__modal-content">
+						<i class='bx bx-x services__modal-close' ></i>
+
+						<h3 class="services__modal-title">Community Manager</h3>
+						<p class="services__modal-description">
+							{% trans %}I manage your company's online presence on social networks. 
+							I work to establish and develop positive relationships with customers and followers on social networks, 
+							creating and sharing engaging and relevant content for the audience.{% endtrans %}
+						</p>
+
+						<ul class="services__modal-list">
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Management of social media accounts.{% endtrans %}
+								</p>
+							</li>
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Content planning and creation.{% endtrans %}
+								</p>
+							</li>
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Engagement with subscribers.{% endtrans %}
+								</p>
+							</li>
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Monitoring of social networks.{% endtrans %}
+								</p>
+							</li>
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Measuring the impact of social media campaigns.{% endtrans %}
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="services__card">
+				<h3 class="services__title">SEO <br> Manager</h3>
+
+				<span class="services__button">
+					{% trans %}See more{% endtrans %} <i class='bx bx-right-arrow-alt services__icon' ></i>
+				</span>
+
+				<div class="services__modal">
+					<div class="services__modal-content">
+						<i class='bx bx-x services__modal-close' ></i>
+
+						<h3 class="services__modal-title">SEO Manager</h3>
+						<p class="services__modal-description">
+							{% trans %}I work to improve the visibility and ranking of your websites in organic search results. 
+							I optimize your websites for search engines, using a variety of techniques, such as:{% endtrans %}
+						</p>
+
+						<ul class="services__modal-list">
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}The natural referencing strategy.{% endtrans %}
+								</p>
+							</li>
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Keyword analysis and optimization.{% endtrans %}
+								</p>
+							</li>
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Auditing of web sites.{% endtrans %}
+								</p>
+							</li>
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Creation of optimized content for search engines.{% endtrans %}
+								</p>
+							</li>
+							<li class="services__modal-item">
+								<i class='bx bx-check services__modal-icon' ></i>
+								<p class='services__modal-info'>
+									{% trans %}Measuring and monitoring the performance of natural referencing.{% endtrans %}
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ============ WORK ============ -->
+	<section id="work" class="work section">
+		<span class="section__subtitle">{% trans %}My Portfolio{% endtrans %}</span>
+		<h2 class="section__title">{% trans %}Recent Works{% endtrans %}</h2>
+
+		<div class="work__filters">
+			<span class="work__item active-work" data-filter="all">{% trans %}All{% endtrans %}</span>
+			<span class="work__item" data-filter=".web">Web</span>
+			<span class="work__item" data-filter=".mobile">Mobile</span>
+			<span class="work__item" data-filter=".cms">CMS</span>
+			<span class="work__item" data-filter=".inactive">{% trans %}Inactive{% endtrans %}</span>
+		</div>
+
+		<div class="work__container container grid">
+			<div class="work__card mix web">
+				<img src="{{asset('assets/img/work/lePassageLumiere.webp')}}" alt="Le Passage Lumière" class="work__img">
+
+				<h3 class="work__title">Le Passage Lumière</h3>
+
+				<a href="https://lepassagelumiere.pfo-immobilier.com/" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div>
+			<div class="work__card mix web">
+				<img src="{{asset('assets/img/work/wowDays.webp')}}" alt="Wow Days" class="work__img">
+
+				<h3 class="work__title">Les Wow Days</h3>
+
+				<a href="https://milesairci.com/" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div>
+			<div class="work__card mix web">
+				<img src="{{asset('assets/img/work/maxigift.png')}}" alt="maxigift" class="work__img">
+
+				<h3 class="work__title">Maxigift</h3>
+
+				<a href="https://www.maxigift.net/" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div>
+			<div class="work__card mix web">
+				<img src="{{asset('assets/img/work/leb.png')}}" alt="LEB" class="work__img">
+
+				<h3 class="work__title">Lagune Exploitation <br>Bongouanou (LEB)</h3>
+
+				<a href="https://www.leb-ci.com/" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div>
+			<div class="work__card mix web">
+				<img src="{{asset('assets/img/work/bendeys.png')}}" alt="bendeys" class="work__img">
+
+				<h3 class="work__title">The Bendeys</h3>
+
+				<a href="https://www.thebendeys.com/" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div>
+			<div class="work__card mix web">
+				<img src="{{asset('assets/img/work/eticketgo.webp')}}" alt="eTicketgo" class="work__img">
+
+				<h3 class="work__title">eTicketgo</h3>
+
+				<a href="https://www.eticketgo.com/" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div>
+			<div class="work__card mix cms">
+				<img src="{{asset('assets/img/work/orangeci.webp')}}" alt="Orange CI" class="work__img">
+
+				<h3 class="work__title">Orange CI</h3>
+
+				<a href="https://www.orange.ci/" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div>
+			<div class="work__card mix web">
+				<img src="{{asset('assets/img/work/jadoremabanque.webp')}}" alt="Jadoremabanque" class="work__img">
+
+				<h3 class="work__title">Jadoremabanque</h3>
+
+				<a href="https://www.jadoremabanque.com/" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div>
+			<div class="work__card mix cms">
+				<img src="{{asset('assets/img/work/yakro_fc.webp')}}" alt="Yakro FC" class="work__img">
+
+				<h3 class="work__title">Yakro FC</h3>
+
+				<a href="https://yakrofc.ci/" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div>
+			<div class="work__card mix web">
+				<img src="{{asset('assets/img/work/alma_prod.webp')}}" alt="Alma Prod" class="work__img">
+
+				<h3 class="work__title">Alma Prod</h3>
+
+				<a href="https://almaproductionci.com/" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div>
+			<div class="work__card mix web">
+				<img src="{{asset('assets/img/work/modena_ci.webp')}}" alt="Modena CI" class="work__img">
+
+				<h3 class="work__title">Modena CI</h3>
+
+				<a href="https://www.modenainternational.com/" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div>
+			<div class="work__card mix web">
+				<img src="{{asset('assets/img/work/modena_mali.webp')}}" alt="Modena Mali" class="work__img">
+
+				<h3 class="work__title">Modena Mali</h3>
+
+				<a href="https://modenamali.com/" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div>
+			<div class="work__card mix web">
+				<img src="{{asset('assets/img/work/residence_zelizo.webp')}}" alt="Residence Zelizo" class="work__img">
+
+				<h3 class="work__title">Residence Zelizo</h3>
+
+				<a href="https://residencezelizo.com/" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div>
+			<div class="work__card mix web">
+				<img src="{{asset('assets/img/work/sogedim.webp')}}" alt="Sogedim" class="work__img">
+
+				<h3 class="work__title">Sogedim</h3>
+
+				<a href="https://www.sogedim.ci/" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div>
+			<div class="work__card mix web">
+				<img src="{{asset('assets/img/work/unemaf.webp')}}" alt="Unemaf" class="work__img">
+
+				<h3 class="work__title">Unemaf</h3>
+
+				<a href="https://www.unemaf.org/" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div>
+			<div class="work__card mix cms">
+				<img src="{{asset('assets/img/work/planete_jeune.webp')}}" alt="Planete Jeune" class="work__img">
+
+				<h3 class="work__title">Planete Jeune</h3>
+
+				<a href="https://www.bayard-afrique.com/" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div>
+			<div class="work__card mix inactive">
+				<img src="{{asset('assets/img/work/gifty_store.webp')}}" alt="Gifty Store" class="work__img">
+
+				<h3 class="work__title">Gifty Store</h3>
+
+				<a href="#" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div>
+			<div class="work__card mix inactive">
+				<img src="{{asset('assets/img/work/gecap.webp')}}" alt="Gecap" class="work__img">
+
+				<h3 class="work__title">Gecap</h3>
+
+				<a href="#" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div>
+			<div class="work__card mix inactive">
+				<img src="{{asset('assets/img/work/iam_angouane.webp')}}" alt="I'am angouane" class="work__img">
+
+				<h3 class="work__title">I'am angouane</h3>
+
+				<a href="#" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div>
+			<div class="work__card mix inactive">
+				<img src="{{asset('assets/img/work/tavoolo.webp')}}" alt="Tavoolo" class="work__img">
+
+				<h3 class="work__title">Tavoolo</h3>
+
+				<a href="#" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div>
+			{# <div class="work__card mix mobile">
+				<div class="y-scroll mh-135">
+					<img src="{{asset('assets/img/work/verithese.png')}}" alt="verithese" class="work__img">
+				</div>
+
+				<h3 class="work__title">Verithese Mobile</h3>
+
+				<a href="#" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div>
+			<div class="work__card mix mobile">
+				<div class="y-scroll mh-135">
+					<img src="{{asset('assets/img/work/kiwi.png')}}" alt="kiwi" class="work__img">
+				</div>
+
+				<h3 class="work__title">Kiwi VOD</h3>
+
+				<a href="https://play.google.com/store/apps/details?id=com.release.kiwi" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div>
+			<div class="work__card mix mobile">
+				<div class="y-scroll mh-135">
+					<img src="{{asset('assets/img/work/sira.jpg')}}" alt="sira" class="work__img">
+				</div>
+
+				<h3 class="work__title">Sira Mobile</h3>
+
+				<a href="#" target="_blank" class="work__button">
+					{% trans %}Demo{% endtrans %} <i class='bx bx-right-arrow-alt work__icon' ></i>
+				</a>
+			</div> #}
+		</div>
+	</section>
+
+	<!-- ============ BLOG ============ -->
+	<section class="blog section">
+		<span class="section__subtitle">{% trans %}Let's talk about!{% endtrans %}</span>
+		<h2 class="section__title">{% trans %}Blog{% endtrans %}</h2>
+		
+		<div class="blog__container container swiper">
+			<div class="swiper-wrapper">
+				<div class="blog__card swiper-slide">
+					<div class="blog__img-div">
+						<img src="{{asset('assets/img/blog/blog-1.jpg')}}" alt="Blog 1" class="blog__img">
+						<span class="blog__view">
+							<span>14</span> 
+							<i class='bx bx-low-vision blog__view-icon'></i>
+						</span>
+					</div>
+
+					<div class="blog__name-div">
+						<h3 class="blog__name">{% trans %}Why Flutter and Dart for Mobile App Development{% endtrans %}</h3>
+						<span class="separate"> | </span>
+						<small>Sam. 10 mai</small>
+					</div>
+					<p class="blog__description">
+						{% trans %}In the world of mobile development, choosing the right technology is crucial for the success of your application. Flutter, combined with Dart, has quickly established itself as a preferred solution for many developers and businesses. But why exactly?{% endtrans %}
+					</p>
+				</div>
+				<div class="blog__card swiper-slide">
+					<div class="blog__img-div">
+						<img src="{{asset('assets/img/blog/blog-2.jpg')}}" alt="Blog 2" class="blog__img">
+						<span class="blog__view">
+							<span>24</span> 
+							<i class='bx bx-low-vision blog__view-icon'></i>
+						</span>
+					</div>
+
+					<div class="blog__name-div">
+						<h3 class="blog__name">{% trans %}DevOps and Automation in the Software Development Lifecycle{% endtrans %}</h3>
+						<span class="separate"> | </span>
+						<small>Lun. 13 mars</small>
+					</div>
+					<p class="blog__description">
+						{% trans %}In today's technological landscape, automation has become a crucial component of software development. DevOps, a practice that combines development and IT operations, emphasizes automation to enhance the efficiency and reliability of the software development lifecycle...{% endtrans %}
+					</p>
+				</div>
+				<div class="blog__card swiper-slide">
+					<div class="blog__img-div">
+						<img src="{{asset('assets/img/blog/blog-1.jpg')}}" alt="Blog 1" class="blog__img">
+						<span class="blog__view">
+							<span>16</span> 
+							<i class='bx bx-low-vision blog__view-icon'></i>
+						</span>
+					</div>
+
+					<div class="blog__name-div">
+						<h3 class="blog__name">{% trans %}Best Practices for Optimizing User Experience{% endtrans %}</h3>
+						<span class="separate"> | </span>
+						<small>Sam. 18 mars</small>
+					</div>
+					<p class="blog__description">
+						{% trans %}User Experience (UX) is a key success factor for any website or application. Good UX design can increase user engagement, reduce bounce rates, and improve overall user satisfaction. Here are some best practices for optimizing UX in web development...{% endtrans %}
+					</p>
+				</div>
+			</div>
+			
+			<div class="swiper-pagination"></div>
+		</div>
+	</section>
+
+	<!-- ============ CONTACT ============ -->
+	<section id="contact" class="contact section">
+		<span class="section__subtitle">{% trans %}Get in touch{% endtrans %}</span>
+		<h2 class="section__title">{% trans %}Contact Me{% endtrans %}</h2>
+
+		<div class="contact__container container grid">
+			<div class="contact__content">
+				<h3 class="contact__title">{% trans %}Talk to me{% endtrans %}</h3>
+
+				<div class="contact__info">
+					<div class="contact__card">
+						<i class='bx bx-mail-send contact__card-icon' ></i>
+						<h3 class="contact__card-title">Email</h3>
+						<span class="contact__card-data">contact@moussa-fofana.dev</span>
+
+						<a href="mailto:contact@moussa-fofana.dev" target="_blank" class="contact__button">
+							{% trans %}Write me{% endtrans %} <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
+						</a>
+					</div>
+					<div class="contact__card">
+						<i class='bx bxl-whatsapp contact__card-icon' ></i>
+						<h3 class="contact__card-title">WhatsApp</h3>
+						<span class="contact__card-data">07 471 612 21</span>
+
+						<a href="https://api.whatsapp.com/send?phone=002250747161221&text=Hello, more information!" target="_blank" class="contact__button">
+							{% trans %}Call me{% endtrans %} <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
+						</a>
+					</div>
+					<div class="contact__card">
+						<i class='bx bxl-messenger contact__card-icon' ></i>
+						<h3 class="contact__card-title">Messenger</h3>
+						<span class="contact__card-data">@moussa.fofana</span>
+
+						<a href="https://m.me/MussLilStar" target="_blank" class="contact__button">
+							{% trans %}Write me{% endtrans %} <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="contact__content">
+				<h3 class="contact__title">{% trans %}Write me your project{% endtrans %}</h3>
+
+				<form action="{{path('contact')}}" method="POST" class="contact__form">
+					<div class="contact__form-div">
+						<label for="" class="contact__form-tag">{% trans %}Names{% endtrans %}</label>
+						<input type="text" placeholder="{% trans %}Insert your name{% endtrans %}" class="contact__form-input">
+					</div>
+					<div class="contact__form-div">
+						<label for="" class="contact__form-tag">Mail</label>
+						<input type="email" placeholder="{% trans %}Insert your email{% endtrans %}" class="contact__form-input">
+					</div>
+					<div class="contact__form-div contact__form-area">
+						<label for="" class="contact__form-tag">{% trans %}Project{% endtrans %}</label>
+						<textarea name="" id="" cols="30" rows="10" placeholder="{% trans %}Write your project{% endtrans %}" class="contact__form-input"></textarea>
+					</div>
+
+					<button class="button">{% trans %}Send Message{% endtrans %}</button>
+				</form>
+
+				<!-- Contact modal -->
+				<div class="contact__modal" id="contact__modal">
+					<div class="contact__modal-content">
+						<i class='bx bx-x contact__modal-close' ></i>
+
+						<h3 class="contact__modal-title">Notification</h3>
+						<p class="contact__modal-description">{{app.flashes('msgNotice')|first|trans|raw}}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock %}
+
+{% block javascripts %}
+<script type='text/javascript' rel='stylesheet'>
+	const contactModal = document.querySelector('#contact__modal');
+	const description = document.querySelector('.contact__modal-description');
+	if (description.textContent != '') {
+		contactModal.classList.add('active-modal');
+	}
+</script>
+{% endblock %}

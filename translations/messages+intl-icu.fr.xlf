@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="tS0csAz" resname="Hello, I'm">
+        <source>Hello, I'm</source>
+        <target>Bonjour, Je suis</target>
+      </trans-unit>
+      <trans-unit id="ihNc.5u" resname="Senior FullStack Developer">
+        <source>Senior FullStack Developer</source>
+        <target>Développeur FullStack Senior</target>
+      </trans-unit>
+      <trans-unit id="T039kOr" resname="My CV">
+        <source>My CV</source>
+        <target>Mon CV</target>
+      </trans-unit>
+      <trans-unit id="5J8OWUy" resname="Scroll Down">
+        <source>Scroll Down</source>
+        <target>Défiler en bas</target>
+      </trans-unit>
+      <trans-unit id="j7_YlCV" resname="My Intro">
+        <source>My Intro</source>
+        <target>Présentation</target>
+      </trans-unit>
+      <trans-unit id="BUNgZnm" resname="About Me">
+        <source>About Me</source>
+        <target>Qui suis'je</target>
+      </trans-unit>
+      <trans-unit id="cDZ0XJe" resname="Experience">
+        <source>Experience</source>
+        <target>Expérience</target>
+      </trans-unit>
+      <trans-unit id="75cdpmm" resname="8 Years Working">
+        <source>8 Years Working</source>
+        <target>8 ans d'expériences</target>
+      </trans-unit>
+      <trans-unit id="5LgCFqF" resname="Completed">
+        <source>Completed</source>
+        <target>Traveaux</target>
+      </trans-unit>
+      <trans-unit id="5v49PSP" resname="28 + Projects">
+        <source>28 + Projects</source>
+        <target>+28 Projets</target>
+      </trans-unit>
+      <trans-unit id=".vNO.oH" resname="Support">
+        <source>Support</source>
+        <target>SAV</target>
+      </trans-unit>
+      <trans-unit id="aIt4crg" resname="Online 24/7">
+        <source>Online 24/7</source>
+        <target>En ligne 24h/7j</target>
+      </trans-unit>
+      <trans-unit id="beVpaI3" resname="Welcome to my portfolio! I'm a coding enthusiast who loves to create and tinker with applications. My skills in web and mobile development enable me to design unique and modern interfaces while ensuring unprecedented performance. All of my projects are created with love and optimized for top-notch user experience. So, if you're looking for a full-stack developer who knows what he's doing and can deliver a high-quality website, don't hesitate to contact me!">
+        <source>Welcome to my portfolio! I'm a coding enthusiast who loves to create and tinker with applications. My skills in web and mobile development enable me to design unique and modern interfaces while ensuring unprecedented performance. All of my projects are created with love and optimized for top-notch user experience. So, if you're looking for a full-stack developer who knows what he's doing and can deliver a high-quality website, don't hesitate to contact me!</source>
+        <target>Bienvenue sur mon portfolio ! Je suis un passionné de code qui adore créer 
+          et bidouiller des applications. 
+          Mes compétences en développement web et mobile me permettent de concevoir des interfaces uniques et modernes tout en assurant une performance inouïe. 
+          Mes projets sont tous créés avec amour et optimisés pour une expérience de navigation au top. 
+          Alors, si tu cherches un développeur fullstack qui sait ce qu'il fait et qui peut te délivrer un site de qualité supérieure, 
+          n'hésite pas à me contacter !</target>
+      </trans-unit>
+      <trans-unit id="oYbubAc" resname="Contact Me">
+        <source>Contact Me</source>
+        <target>Me contacter</target>
+      </trans-unit>
+      <trans-unit id="UcEzHVH" resname="My abilities">
+        <source>My abilities</source>
+        <target>Mes connaissances</target>
+      </trans-unit>
+      <trans-unit id="L210y6d" resname="My Experience">
+        <source>My Experience</source>
+        <target>Compétences</target>
+      </trans-unit>
+      <trans-unit id="7PYnPh4" resname="Frontend Developer">
+        <source>Frontend Developer</source>
+        <target>Développeur Frontend</target>
+      </trans-unit>
+      <trans-unit id="rWM97hF" resname="Basic">
+        <source>Basic</source>
+        <target>Basique</target>
+      </trans-unit>
+      <trans-unit id="fJxaegF" resname="Advanced">
+        <source>Advanced</source>
+        <target>Avancé</target>
+      </trans-unit>
+      <trans-unit id="LHLHu.t" resname="Intermediate">
+        <source>Intermediate</source>
+        <target>Intermediaire</target>
+      </trans-unit>
+      <trans-unit id="WCtI6Ih" resname="Backtend Developer">
+        <source>Backtend Developer</source>
+        <target>Développeur Backtend</target>
+      </trans-unit>
+      <trans-unit id="5Zm4uJf" resname="My Services">
+        <source>My Services</source>
+        <target>Mes Services</target>
+      </trans-unit>
+      <trans-unit id="q2lh1d5" resname="What I Offer">
+        <source>What I Offer</source>
+        <target>Mes offres</target>
+      </trans-unit>
+      <trans-unit id="LiS2Aod" resname="Web &lt;br&gt; Developer">
+        <source>Web &lt;br&gt; Developer</source>
+        <target><![CDATA[Développeur <br> Web]]></target>
+      </trans-unit>
+      <trans-unit id="_Ik_pAy" resname="See more">
+        <source>See more</source>
+        <target>En savoir plus</target>
+      </trans-unit>
+      <trans-unit id="uMznBua" resname="Web Developer">
+        <source>Web Developer</source>
+        <target>Développeur Web</target>
+      </trans-unit>
+      <trans-unit id="j1nGEK1" resname="I create custom websites for businesses or individuals. Using programming languages and development tools &#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;I design functional and attractive websites that meet your specific needs:">
+        <source>I create custom websites for businesses or individuals. Using programming languages and development tools 
+							I design functional and attractive websites that meet your specific needs:</source>
+        <target>Je crée des sites web personnalisés pour les entreprises ou les particuliers. 
+              En utilisant des langages de programmation et des outils de développement 
+              je concevoir des sites web fonctionnels et attrayants qui répondent à vos besoins spécifiques :</target>
+      </trans-unit>
+      <trans-unit id="FMhpJj6" resname="I develop the user interface.">
+        <source>I develop the user interface.</source>
+        <target>Réalisation de l'interface utilisateur.</target>
+      </trans-unit>
+      <trans-unit id="D.qJELu" resname="Web application development.">
+        <source>Web application development.</source>
+        <target>Développement d'applications web.</target>
+      </trans-unit>
+      <trans-unit id="rXmCZ_m" resname="Search engine optimization.">
+        <source>Search engine optimization.</source>
+        <target>Optimisation des moteurs de recherche.</target>
+      </trans-unit>
+      <trans-unit id="5ei7urE" resname="Integration of third-party systems and applications.">
+        <source>Integration of third-party systems and applications.</source>
+        <target>Intégration de systèmes et d'applications tiers.</target>
+      </trans-unit>
+      <trans-unit id="MoQauYG" resname="Maintenance and support of websites.">
+        <source>Maintenance and support of websites.</source>
+        <target>Maintenance et support de sites web.</target>
+      </trans-unit>
+      <trans-unit id="tnDUcK7" resname="I work to create clear, intuitive and aesthetically pleasing user interfaces for websites and applications, &#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;using a variety of design tools and techniques. This service includes :">
+        <source>I work to create clear, intuitive and aesthetically pleasing user interfaces for websites and applications, 
+							using a variety of design tools and techniques. This service includes :</source>
+        <target>Je développe des applications mobiles personnalisées pour les entreprises ou les particuliers en utilisant Flutter et Dart. Grâce à ces technologies, je crée des applications mobiles performantes, attractives et adaptées à vos besoins spécifiques :</target>
+      </trans-unit>
+      <trans-unit id="vxLHq7t" resname="User interface development.">
+        <source>User interface development.</source>
+        <target>Développement d'interfaces utilisateur.</target>
+      </trans-unit>
+      <trans-unit id="nt6fd_N" resname="Cross-platform application development.">
+        <source>Cross-platform application development.</source>
+        <target>Développement d'applications multiplateformes.</target>
+      </trans-unit>
+      <trans-unit id="ZAFJ0Kh" resname="Integration of advanced functions.">
+        <source>Integration of advanced functions.</source>
+        <target>Intégration de fonctionnalités avancées.</target>
+      </trans-unit>
+      <trans-unit id="hzpXd77" resname="Application maintenance and support.">
+        <source>Application maintenance and support.</source>
+        <target>Maintenance et support d'applications.</target>
+      </trans-unit>
+      <trans-unit id="D6Mk.z9" resname="Deployment on Stores.">
+        <source>Deployment on Stores.</source>
+        <target>Déploiement sur les stores.</target>
+      </trans-unit>
+      <trans-unit id="EZF0IN1" resname="Brand &lt;br&gt; Content">
+        <source>Brand &lt;br&gt; Content</source>
+        <target><![CDATA[Brand <br> Content]]></target>
+      </trans-unit>
+      <trans-unit id="TKV4XMx" resname="Brand Content">
+        <source>Brand Content</source>
+        <target>Brand Content</target>
+      </trans-unit>
+      <trans-unit id="QsOSnRV" resname="I develop content strategies that strengthen your corporate brands, &#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;using digital channels such as social networks, blogs, videos and podcasts. My job is to:">
+        <source>I develop content strategies that strengthen your corporate brands, 
+							using digital channels such as social networks, blogs, videos and podcasts. My job is to:</source>
+        <target>J'élabore des stratégies de contenu qui renforcent l'image de vos marques d'entreprise, 
+              en utilisant des canaux numériques, tels que les réseaux sociaux, les blogs, les vidéos et les podcasts.
+              Mon travail consiste à :</target>
+      </trans-unit>
+      <trans-unit id="Tz4cKqm" resname="Creation of editorial and visual content.">
+        <source>Creation of editorial and visual content.</source>
+        <target>La création de contenu éditorial et visuel.</target>
+      </trans-unit>
+      <trans-unit id="VMsMv_s" resname="Video production.">
+        <source>Video production.</source>
+        <target>La production de vidéos.</target>
+      </trans-unit>
+      <trans-unit id="VydpUYZ" resname="Management of social networks.">
+        <source>Management of social networks.</source>
+        <target>La gestion des réseaux sociaux.</target>
+      </trans-unit>
+      <trans-unit id="3t4VGfz" resname="The content marketing strategy.">
+        <source>The content marketing strategy.</source>
+        <target>La stratégie de marketing de contenu.</target>
+      </trans-unit>
+      <trans-unit id="thCNpZ." resname="I manage your company's online presence on social networks. &#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;I work to establish and develop positive relationships with customers and followers on social networks, &#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;creating and sharing engaging and relevant content for the audience.">
+        <source>I manage your company's online presence on social networks. 
+							I work to establish and develop positive relationships with customers and followers on social networks, 
+							creating and sharing engaging and relevant content for the audience.</source>
+        <target>Je gère la présence en ligne de vos entreprises sur les réseaux sociaux. 
+              Je travaille à établir et à développer des relations positives avec les clients et les abonnés sur les réseaux sociaux, 
+              en créant et en partageant du contenu engageant et pertinent pour l'audience.</target>
+      </trans-unit>
+      <trans-unit id="4VxWpXX" resname="Management of social media accounts.">
+        <source>Management of social media accounts.</source>
+        <target>La gestion de comptes de médias sociaux.</target>
+      </trans-unit>
+      <trans-unit id="MhjOOGV" resname="Content planning and creation.">
+        <source>Content planning and creation.</source>
+        <target>La planification et la création de contenu.</target>
+      </trans-unit>
+      <trans-unit id="6DkPRgD" resname="Engagement with subscribers.">
+        <source>Engagement with subscribers.</source>
+        <target>L'engagement avec les abonnés.</target>
+      </trans-unit>
+      <trans-unit id="gGMWLSX" resname="Monitoring of social networks.">
+        <source>Monitoring of social networks.</source>
+        <target>La surveillance des réseaux sociaux.</target>
+      </trans-unit>
+      <trans-unit id="p36UB2Z" resname="Measuring the impact of social media campaigns.">
+        <source>Measuring the impact of social media campaigns.</source>
+        <target>La mesure de l'impact des campagnes de médias sociaux.</target>
+      </trans-unit>
+      <trans-unit id="pChPK.J" resname="I work to improve the visibility and ranking of your websites in organic search results. &#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;I optimize your websites for search engines, using a variety of techniques, such as:">
+        <source>I work to improve the visibility and ranking of your websites in organic search results. 
+							I optimize your websites for search engines, using a variety of techniques, such as:</source>
+        <target>Je travaille à améliorer la visibilité et le classement de vos sites web dans les résultats de recherche organiques. 
+              Je me charge d'optimiser vos sites web pour les moteurs de recherche, en utilisant une variété de techniques, telles que :</target>
+      </trans-unit>
+      <trans-unit id="u1z0yB6" resname="The natural referencing strategy.">
+        <source>The natural referencing strategy.</source>
+        <target>La stratégie de référencement naturel.</target>
+      </trans-unit>
+      <trans-unit id="XKjqbXM" resname="Keyword analysis and optimization.">
+        <source>Keyword analysis and optimization.</source>
+        <target>L'analyse et l'optimisation des mots-clés.</target>
+      </trans-unit>
+      <trans-unit id="9MOAqRa" resname="Auditing of web sites.">
+        <source>Auditing of web sites.</source>
+        <target>L'audit des sites web.</target>
+      </trans-unit>
+      <trans-unit id="rhhNc8q" resname="Creation of optimized content for search engines.">
+        <source>Creation of optimized content for search engines.</source>
+        <target>La création de contenu optimisé pour les moteurs de recherche.</target>
+      </trans-unit>
+      <trans-unit id="Qs6W0Ai" resname="Measuring and monitoring the performance of natural referencing.">
+        <source>Measuring and monitoring the performance of natural referencing.</source>
+        <target>La mesure et le suivi de la performance du référencement naturel.</target>
+      </trans-unit>
+      <trans-unit id="8cy5z.L" resname="My Portfolio">
+        <source>My Portfolio</source>
+        <target>Mon Portfolio</target>
+      </trans-unit>
+      <trans-unit id="fl90UGL" resname="Recent Works">
+        <source>Recent Works</source>
+        <target>Traveaux récents</target>
+      </trans-unit>
+      <trans-unit id="tHdA52O" resname="All">
+        <source>All</source>
+        <target>Tous</target>
+      </trans-unit>
+      <trans-unit id="ybqiXt5" resname="Inactive">
+        <source>Inactive</source>
+        <target>Inactifs</target>
+      </trans-unit>
+      <trans-unit id="pI4kpJQ" resname="Demo">
+        <source>Demo</source>
+        <target>Démo</target>
+      </trans-unit>
+      <trans-unit id="KqtWimN" resname="Let's talk about!">
+        <source>Let's talk about!</source>
+        <target>Parlons-en !</target>
+      </trans-unit>
+      <trans-unit id="uBkTf4O" resname="Get in touch">
+        <source>Get in touch</source>
+        <target>Contact</target>
+      </trans-unit>
+      <trans-unit id="cbFTzU7" resname="Talk to me">
+        <source>Talk to me</source>
+        <target>On peut discuter</target>
+      </trans-unit>
+      <trans-unit id="0kCbR5r" resname="Write me">
+        <source>Write me</source>
+        <target>Écris-moi</target>
+      </trans-unit>
+      <trans-unit id="EJKSNc5" resname="Write me your project">
+        <source>Write me your project</source>
+        <target>Parle moi de ton projet</target>
+      </trans-unit>
+      <trans-unit id="takiHgE" resname="Names">
+        <source>Names</source>
+        <target>Nom complet</target>
+      </trans-unit>
+      <trans-unit id="EEXaGlZ" resname="Insert your name">
+        <source>Insert your name</source>
+        <target>Entre ici ton nom complet</target>
+      </trans-unit>
+      <trans-unit id="FX2ZQso" resname="Insert your email">
+        <source>Insert your email</source>
+        <target>Entre ici ton email</target>
+      </trans-unit>
+      <trans-unit id="HVJGf9V" resname="Project">
+        <source>Project</source>
+        <target>Projet</target>
+      </trans-unit>
+      <trans-unit id="_l6JzrN" resname="Write your project">
+        <source>Write your project</source>
+        <target>Explique ici ton projet</target>
+      </trans-unit>
+      <trans-unit id="IQxsMRH" resname="Send Message">
+        <source>Send Message</source>
+        <target>Envoyer</target>
+      </trans-unit>
+      <trans-unit id="ulfBf.Q" resname="About">
+        <source>About</source>
+        <target>À propos</target>
+      </trans-unit>
+      <trans-unit id="PW7Z9ra" resname="All rights reserved">
+        <source>All rights reserved</source>
+        <target>Tous droits réservés</target>
+      </trans-unit>
+      <trans-unit id="yG0Mvfn" resname="Works">
+        <source>Works</source>
+        <target>Traveaux</target>
+      </trans-unit>
+      <trans-unit id="ExFLJqx" resname="Home">
+        <source>Home</source>
+        <target>Accueil</target>
+      </trans-unit>
+      <trans-unit id="5Y34z39" resname="Profile">
+        <source>Profile</source>
+        <target>Profil</target>
+      </trans-unit>
+      <trans-unit id="qVKCezd" resname="Education">
+        <source>Education</source>
+        <target>Éducation</target>
+      </trans-unit>
+      <trans-unit id="ZbM76Qb" resname="Skills">
+        <source>Skills</source>
+        <target>Compétences</target>
+      </trans-unit>
+      <trans-unit id="Mxf5t.v" resname="Certificates">
+        <source>Certificates</source>
+        <target>Certifications</target>
+      </trans-unit>
+      <trans-unit id="TEGtzZC" resname="References">
+        <source>References</source>
+        <target>Références</target>
+      </trans-unit>
+      <trans-unit id="iMlLPDz" resname="Download">
+        <source>Download</source>
+        <target>Télécharger</target>
+      </trans-unit>
+      <trans-unit id="2pefZFj" resname="Master's degree in Software Engineering">
+        <source>Master's degree in Software Engineering</source>
+        <target>Master 2, Ingénieur Génie Logiciel</target>
+      </trans-unit>
+      <trans-unit id="owzq509" resname="Professional Bachelor's degree, 3rd year">
+        <source>Professional Bachelor's degree, 3rd year</source>
+        <target>Licence Professionnelle, 3ème année</target>
+      </trans-unit>
+      <trans-unit id="Ycj1JwT" resname="Advanced Technician's Certificate, IDA option">
+        <source>Advanced Technician's Certificate, IDA option</source>
+        <target>Brevet de Technicien Supérieur (BTS), option IDA</target>
+      </trans-unit>
+      <trans-unit id="yWshW3F" resname="E.T.S EDUFOR of Yopougon">
+        <source>E.T.S EDUFOR of Yopougon</source>
+        <target>E.T.S EDUFOR de Yopougon</target>
+      </trans-unit>
+      <trans-unit id="VpMYyRi" resname="High school diploma in science and mathematics (Bac D)">
+        <source>High school diploma in science and mathematics (Bac D)</source>
+        <target>Baccalaureat (BAC) série D</target>
+      </trans-unit>
+      <trans-unit id="j9tReGb" resname="Collège St François of Yopougon">
+        <source>Collège St François of Yopougon</source>
+        <target>Collège St François de Yopougon</target>
+      </trans-unit>
+      <trans-unit id=".Oo4BSB" resname="From 2019 to present | Senior Fullstack Developer">
+        <source>From 2019 to present | Senior Fullstack Developer</source>
+        <target>De 2019 à aujourd'hui | Développeur Fullstack Senior</target>
+      </trans-unit>
+      <trans-unit id="0KB5Aop" resname="Designing, administering, and maintaining websites and web applications for the agency and its clients.">
+        <source>Designing, administering, and maintaining websites and web applications for the agency and its clients.</source>
+        <target>Conception, Réalisation, Administration et Maintenance des sites et applications web de l'agences ainsi que de ses clients ...</target>
+      </trans-unit>
+      <trans-unit id="Ul_GGr4" resname="From 2017 to 2018 | Assistant Fullstack Developer">
+        <source>From 2017 to 2018 | Assistant Fullstack Developer</source>
+        <target>De 2017 à 2018 | Développeur Fullstack junior</target>
+      </trans-unit>
+      <trans-unit id="zhcSgEX" resname="As the head of the Web Management department, I was responsible for designing and administering every website for each of our projects, &#10;                                        as well as managing associated social media accounts.">
+        <source>As the head of the Web Management department, I was responsible for designing and administering every website for each of our projects, 
+                                        as well as managing associated social media accounts.</source>
+        <target>En tant que responsable du département Web Management
+              j’étais chargé de concevoir et d’administrer chaque site web
+              de chacun de nos projets et d’animer les pages associées aux
+              réseaux sociaux.</target>
+      </trans-unit>
+      <trans-unit id="PxjnEUc" resname="From 2016 to 2017 | Hardware and software department manager">
+        <source>From 2016 to 2017 | Hardware and software department manager</source>
+        <target>De 2016 à 2017 | Resp. du service Hardware et software</target>
+      </trans-unit>
+      <trans-unit id="QPfGPvX" resname="My responsibilities included designing and administering our websites and web applications, &#10;                                        as well as maintaining all the computer hardware.">
+        <source>My responsibilities included designing and administering our websites and web applications, 
+                                        as well as maintaining all the computer hardware.</source>
+        <target>Mes responsabilités étaient de concevoir de d’administrer nos
+              sites et application web, en passant par l’entretient de tout le
+              matériel informatique (Hardware).</target>
+      </trans-unit>
+      <trans-unit id="2yO96mF" resname="Chief Technical Officer">
+        <source>Chief Technical Officer</source>
+        <target>Chief Technical Officer</target>
+      </trans-unit>
+      <trans-unit id="ghcWIWQ" resname="Mr.">
+        <source>Mr.</source>
+        <target>M.</target>
+      </trans-unit>
+      <trans-unit id="e6n1PYA" resname="Hr. Director">
+        <source>Hr. Director</source>
+        <target>Directrice des RH</target>
+      </trans-unit>
+      <trans-unit id="A7LBbU9" resname="Mrs.">
+        <source>Mrs.</source>
+        <target>Mme.</target>
+      </trans-unit>
+      <trans-unit id="sy9ym88" resname="Languages">
+        <source>Languages</source>
+        <target>Langues</target>
+      </trans-unit>
+      <trans-unit id="NR2RdXC" resname="English">
+        <source>English</source>
+        <target>Anglais</target>
+      </trans-unit>
+      <trans-unit id="pMwerq8" resname="French">
+        <source>French</source>
+        <target>Français</target>
+      </trans-unit>
+      <trans-unit id="YHU6HyX" resname="Spanish">
+        <source>Spanish</source>
+        <target>Espagnol</target>
+      </trans-unit>
+      <trans-unit id="LyA6vrw" resname="Interests">
+        <source>Interests</source>
+        <target>Centre d'Intérêt</target>
+      </trans-unit>
+      <trans-unit id="F36rI29" resname="Music">
+        <source>Music</source>
+        <target>Musique</target>
+      </trans-unit>
+      <trans-unit id="RRW_jW4" resname="Travel">
+        <source>Travel</source>
+        <target>Voyage</target>
+      </trans-unit>
+      <trans-unit id="38z3QvA" resname="Read">
+        <source>Read</source>
+        <target>Lecture</target>
+      </trans-unit>
+      <trans-unit id="tkezs9m" resname="Fitness">
+        <source>Fitness</source>
+        <target>Sport</target>
+      </trans-unit>
+      <trans-unit id="D6T_ooP" resname="Game">
+        <source>Game</source>
+        <target>Jeux</target>
+      </trans-unit>
+      <trans-unit id="43nnXnT" resname="About me">
+        <source>About me</source>
+        <target>Tout sur moi</target>
+      </trans-unit>
+      <trans-unit id="eMKb24a" resname="Blog">
+        <source>Blog</source>
+        <target>Mon Blog</target>
+      </trans-unit>
+      <trans-unit id="Kwj3spM" resname="Call me">
+        <source>Call me</source>
+        <target>Appelle-moi</target>
+      </trans-unit>
+      <trans-unit id="yoLpHX0" resname="Mobile &lt;br&gt; Developer">
+        <source>Mobile &lt;br&gt; Developer</source>
+        <target><![CDATA[Développeur <br> mobile]]></target>
+      </trans-unit>
+      <trans-unit id="YJdpCTX" resname="Mobile Developer">
+        <source>Mobile Developer</source>
+        <target>Développeur mobile</target>
+      </trans-unit>
+      <trans-unit id="NtTviuk" resname="Backend Developer / Database">
+        <source>Backend Developer / Database</source>
+        <target>Développeur Backend / Base de données</target>
+      </trans-unit>
+      <trans-unit id="ymQJjyi" resname="Using technologies such as Flutter and Dart, I develop high-performance, cross-platform, attractive mobile applications tailored to your specific needs:">
+        <source>Using technologies such as Flutter and Dart, I develop high-performance, cross-platform, attractive mobile applications tailored to your specific needs:</source>
+        <target>En utilisant des technologies telles que Flutter et Dart, je développe des applications mobiles performantes, multiplateformes, attractives et adaptées à vos besoins spécifiques :</target>
+      </trans-unit>
+      <trans-unit id=".P.N54." resname="I offer DevOps services for businesses to facilitate and automate the software development lifecycle. By using modern tools and practices, I help improve the efficiency, collaboration, and continuous delivery of your applications:">
+        <source>I offer DevOps services for businesses to facilitate and automate the software development lifecycle. By using modern tools and practices, I help improve the efficiency, collaboration, and continuous delivery of your applications:</source>
+        <target>Je propose des services DevOps pour les entreprises afin de faciliter et d'automatiser le cycle de vie du développement logiciel. En utilisant des outils et des pratiques modernes, j'aide à améliorer l'efficacité, la collaboration et la livraison continue de vos applications :</target>
+      </trans-unit>
+      <trans-unit id="w83DH8f" resname="Continuous Integration and Continuous Delivery (CI/CD).">
+        <source>Continuous Integration and Continuous Delivery (CI/CD).</source>
+        <target>Intégration continue et livraison continue (CI/CD).</target>
+      </trans-unit>
+      <trans-unit id="BjRqn5Z" resname="Infrastructure Management.">
+        <source>Infrastructure Management.</source>
+        <target>Gestion des infrastructures.</target>
+      </trans-unit>
+      <trans-unit id="C9Os2c4" resname="Performance Monitoring and Management.">
+        <source>Performance Monitoring and Management.</source>
+        <target>Surveillance et gestion des performances.</target>
+      </trans-unit>
+      <trans-unit id="9Pw6D8P" resname="DevOps Security.">
+        <source>DevOps Security.</source>
+        <target>Sécurité DevOps.</target>
+      </trans-unit>
+      <trans-unit id="oifP8QB" resname="Version and Configuration Management.">
+        <source>Version and Configuration Management.</source>
+        <target>Gestion des versions et des configurations.</target>
+      </trans-unit>
+      <trans-unit id="OVd2CnS" resname="Test Automation.">
+        <source>Test Automation.</source>
+        <target>Automatisation des tests.</target>
+      </trans-unit>
+      <trans-unit id="FEbFv1H" resname="Development Workflow Optimization.">
+        <source>Development Workflow Optimization.</source>
+        <target>Optimisation des workflows de développement.</target>
+      </trans-unit>
+      <trans-unit id="F6XDT_f" resname="Why Flutter and Dart for Mobile App Development">
+        <source>Why Flutter and Dart for Mobile App Development</source>
+        <target>Pourquoi Flutter et Dart pour le développement d'applications mobiles ?</target>
+      </trans-unit>
+      <trans-unit id="Jl8nbca" resname="In the world of mobile development, choosing the right technology is crucial for the success of your application. Flutter, combined with Dart, has quickly established itself as a preferred solution for many developers and businesses. But why exactly?">
+        <source>In the world of mobile development, choosing the right technology is crucial for the success of your application. Flutter, combined with Dart, has quickly established itself as a preferred solution for many developers and businesses. But why exactly?</source>
+        <target>Dans le monde du développement mobile, choisir la bonne technologie est crucial pour garantir le succès de votre application. Flutter, combiné avec Dart, s'est rapidement imposé comme une solution de choix pour de nombreux développeurs et entreprises. Mais pourquoi exactement ?</target>
+      </trans-unit>
+      <trans-unit id="1LIo711" resname="DevOps and Automation in the Software Development Lifecycle">
+        <source>DevOps and Automation in the Software Development Lifecycle</source>
+        <target>DevOps et automatisation dans le cycle de vie du développement logiciel</target>
+      </trans-unit>
+      <trans-unit id="0yw.MZr" resname="In today's technological landscape, automation has become a crucial component of software development. DevOps, a practice that combines development and IT operations, emphasizes automation to enhance the efficiency and reliability of the software development lifecycle...">
+        <source>In today's technological landscape, automation has become a crucial component of software development. DevOps, a practice that combines development and IT operations, emphasizes automation to enhance the efficiency and reliability of the software development lifecycle...</source>
+        <target>Dans le paysage technologique actuel, l'automatisation est devenue une composante essentielle du développement logiciel. DevOps, une pratique qui combine le développement et les opérations IT, met particulièrement l'accent sur l'automatisation pour améliorer l'efficacité et la fiabilité du cycle de vie du développement logiciel...</target>
+      </trans-unit>
+      <trans-unit id="0vqCH55" resname="Best Practices for Optimizing User Experience">
+        <source>Best Practices for Optimizing User Experience</source>
+        <target>Les meilleures pratiques pour optimiser l'expérience utilisateur</target>
+      </trans-unit>
+      <trans-unit id="bQl_kc1" resname="User Experience (UX) is a key success factor for any website or application. Good UX design can increase user engagement, reduce bounce rates, and improve overall user satisfaction. Here are some best practices for optimizing UX in web development...">
+        <source>User Experience (UX) is a key success factor for any website or application. Good UX design can increase user engagement, reduce bounce rates, and improve overall user satisfaction. Here are some best practices for optimizing UX in web development...</source>
+        <target>L'expérience utilisateur (UX) est un facteur clé de succès pour tout site web ou application. Un bon design UX peut augmenter l'engagement des utilisateurs, réduire les taux de rebond et améliorer la satisfaction globale des utilisateurs. Voici quelques meilleures pratiques pour optimiser l'UX dans le développement web...</target>
+      </trans-unit>
+      <trans-unit id="SJ3llwy" resname="From 2023 to present | Lead Developer / DEVOPS">
+        <source>From 2023 to present | Lead Developer / DEVOPS</source>
+        <target>De 2023 à aujourd'hui | Lead Developer / DEVOPS</target>
+      </trans-unit>
+      <trans-unit id="rsJwm0N" resname="Design and implementation of scalable and resilient software architectures. Management of deployment pipelines and automation of continuous delivery processes.">
+        <source>Design and implementation of scalable and resilient software architectures. Management of deployment pipelines and automation of continuous delivery processes.</source>
+        <target>Conception et mise en oeuvre d'architectures logicielles évolutives et résiliantes. Gestion des pipelines de déploiement et automatisation des processus de livraison continue.</target>
+      </trans-unit>
+      <trans-unit id="vvHHPf8" resname="From 2019 to 2023 | Senior Fullstack Developer">
+        <source>From 2019 to 2023 | Senior Fullstack Developer</source>
+        <target>De 2019 à 2023 | Développeur Fullstack Senior</target>
+      </trans-unit>
+      <trans-unit id="N4AHXkw" resname="Development and maintenance of complete web applications, from initial design to delivery. Mentoring junior team members and sharing best practices to support their professional growth.">
+        <source>Development and maintenance of complete web applications, from initial design to delivery. Mentoring junior team members and sharing best practices to support their professional growth.</source>
+        <target>Développement et maintenance d'applications web complètes, de la conception initiale à la livraison. Mentorat des membres juniors de l'équipe et partage des meilleures pratiques pour favoriser leur croissance professionnelle.</target>
+      </trans-unit>
+      <trans-unit id="C6HIjBj" resname="From 2017 to 2018 | Junior Fullstack Developer">
+        <source>From 2017 to 2018 | Junior Fullstack Developer</source>
+        <target>De 2017 à 2018 | Développeur Fullstack Junior</target>
+      </trans-unit>
+      <trans-unit id="dUQYl.x" resname="From the design to the administration of the websites, I ensured that the platforms were high-performance, secure and adapted to our customers' needs. Each site was a unique challenge that I met with passion.">
+        <source>From the design to the administration of the websites, I ensured that the platforms were high-performance, secure and adapted to our customers' needs. Each site was a unique challenge that I met with passion.</source>
+        <target>De la conception à l’administration des sites web, je veillais à offrir des plateformes performantes, sécurisées et adaptées aux besoins de nos clients. Chaque site était un challenge unique que je relevais avec passion.</target>
+      </trans-unit>
+      <trans-unit id="IdUCuyz" resname="Confident in my ability to work effectively in a fast-paced environment and leverage my web and mobile development skills to ensure the team's success. Always willing to learn and go the extra mile to advance projects and achieve goals.">
+        <source>Confident in my ability to work effectively in a fast-paced environment and leverage my web and mobile development skills to ensure the team's success. Always willing to learn and go the extra mile to advance projects and achieve goals.</source>
+        <target>Confiant dans ma capacité à travailler efficacement dans un environnement en évolution rapide et à tirer parti de mes compétences en développement web et mobile, pour assurer le succès de l'équipe. Toujours prêt à apprendre et à faire des efforts supplémentaires pour faire progresser les projets et atteindre les objectifs.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

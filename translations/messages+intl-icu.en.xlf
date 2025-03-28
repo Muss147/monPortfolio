@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="en" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="mZH03QR" resname="Hello, I'm">
+        <source>Hello, I'm</source>
+        <target>Hello, I'm</target>
+      </trans-unit>
+      <trans-unit id="JxJQi1g" resname="Senior FullStack Developer">
+        <source>Senior FullStack Developer</source>
+        <target>Senior FullStack Developer</target>
+      </trans-unit>
+      <trans-unit id="8oWsVMv" resname="My CV">
+        <source>My CV</source>
+        <target>My CV</target>
+      </trans-unit>
+      <trans-unit id="C.fzity" resname="About Me">
+        <source>About Me</source>
+        <target>About Me</target>
+      </trans-unit>
+      <trans-unit id="fci5IMU" resname="Scroll Down">
+        <source>Scroll Down</source>
+        <target>Scroll Down</target>
+      </trans-unit>
+      <trans-unit id="ifKmqCn" resname="My Intro">
+        <source>My Intro</source>
+        <target>My Intro</target>
+      </trans-unit>
+      <trans-unit id="jqsPCd8" resname="Experience">
+        <source>Experience</source>
+        <target>Experience</target>
+      </trans-unit>
+      <trans-unit id="7Gkejlb" resname="8 Years Working">
+        <source>8 Years Working</source>
+        <target>8 Years Working</target>
+      </trans-unit>
+      <trans-unit id="Iqlw0uW" resname="Completed">
+        <source>Completed</source>
+        <target>Completed</target>
+      </trans-unit>
+      <trans-unit id="PUSb3XO" resname="28 + Projects">
+        <source>28 + Projects</source>
+        <target>28 + Projects</target>
+      </trans-unit>
+      <trans-unit id="vpGUC3n" resname="Support">
+        <source>Support</source>
+        <target>Support</target>
+      </trans-unit>
+      <trans-unit id="uisWHH_" resname="Online 24/7">
+        <source>Online 24/7</source>
+        <target>Online 24/7</target>
+      </trans-unit>
+      <trans-unit id="ZVdv.9n" resname="Yo, welcome to my portfolio! I'm a coding enthusiast who loves to create and tinker &#10;&#9;&#9;&#9;&#9;&#9;with crazy user experiences. &#10;&#9;&#9;&#9;&#9;&#9;My web development skills allow me to design amazing interfaces while ensuring sick performance. &#10;&#9;&#9;&#9;&#9;&#9;All of my projects are created with love and optimized for top-notch user experience. &#10;&#9;&#9;&#9;&#9;&#9;So, if you're looking for a full-stack developer who knows what he's doing and can deliver a high-quality website, &#10;&#9;&#9;&#9;&#9;&#9;don't hesitate to contact me!">
+        <source>Yo, welcome to my portfolio! I'm a coding enthusiast who loves to create and tinker 
+					with crazy user experiences. 
+					My web development skills allow me to design amazing interfaces while ensuring sick performance. 
+					All of my projects are created with love and optimized for top-notch user experience. 
+					So, if you're looking for a full-stack developer who knows what he's doing and can deliver a high-quality website, 
+					don't hesitate to contact me!</source>
+        <target>Yo, welcome to my portfolio! I'm a coding enthusiast who loves to create and tinker 
+					with crazy user experiences. 
+					My web development skills allow me to design amazing interfaces while ensuring sick performance. 
+					All of my projects are created with love and optimized for top-notch user experience. 
+					So, if you're looking for a full-stack developer who knows what he's doing and can deliver a high-quality website, 
+					don't hesitate to contact me!</target>
+      </trans-unit>
+      <trans-unit id="YGKJrRN" resname="Contact Me">
+        <source>Contact Me</source>
+        <target>Contact Me</target>
+      </trans-unit>
+      <trans-unit id="DLVAlJN" resname="My abilities">
+        <source>My abilities</source>
+        <target>My abilities</target>
+      </trans-unit>
+      <trans-unit id="7dzpoN7" resname="My Experience">
+        <source>My Experience</source>
+        <target>My Experience</target>
+      </trans-unit>
+      <trans-unit id="sXNQXAj" resname="Frontend Developer">
+        <source>Frontend Developer</source>
+        <target>Frontend Developer</target>
+      </trans-unit>
+      <trans-unit id="DjX26XQ" resname="Basic">
+        <source>Basic</source>
+        <target>Basic</target>
+      </trans-unit>
+      <trans-unit id="nwiNvr1" resname="Advanced">
+        <source>Advanced</source>
+        <target>Advanced</target>
+      </trans-unit>
+      <trans-unit id="Oxz6Y9f" resname="Intermediate">
+        <source>Intermediate</source>
+        <target>Intermediate</target>
+      </trans-unit>
+      <trans-unit id="jrqQB2D" resname="Backtend Developer">
+        <source>Backtend Developer</source>
+        <target>Backtend Developer</target>
+      </trans-unit>
+      <trans-unit id="AQ2LJCx" resname="My Services">
+        <source>My Services</source>
+        <target>My Services</target>
+      </trans-unit>
+      <trans-unit id="C6gWIW3" resname="What I Offer">
+        <source>What I Offer</source>
+        <target>What I Offer</target>
+      </trans-unit>
+      <trans-unit id="32nbeC8" resname="Web &lt;br&gt; Developer">
+        <source>Web &lt;br&gt; Developer</source>
+        <target><![CDATA[Web <br> Developer]]></target>
+      </trans-unit>
+      <trans-unit id="urN9Ykc" resname="See more">
+        <source>See more</source>
+        <target>See more</target>
+      </trans-unit>
+      <trans-unit id="foKlJef" resname="Web Developer">
+        <source>Web Developer</source>
+        <target>Web Developer</target>
+      </trans-unit>
+      <trans-unit id="XwbGrXT" resname="I create custom websites for businesses or individuals. Using programming languages and development tools &#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;I design functional and attractive websites that meet your specific needs :">
+        <source>I create custom websites for businesses or individuals. Using programming languages and development tools 
+							I design functional and attractive websites that meet your specific needs :</source>
+        <target>I create custom websites for businesses or individuals. Using programming languages and development tools 
+							I design functional and attractive websites that meet your specific needs :</target>
+      </trans-unit>
+      <trans-unit id="ZKR.Dtp" resname="I develop the user interface.">
+        <source>I develop the user interface.</source>
+        <target>I develop the user interface.</target>
+      </trans-unit>
+      <trans-unit id="5uOP638" resname="Web application development.">
+        <source>Web application development.</source>
+        <target>Web application development.</target>
+      </trans-unit>
+      <trans-unit id="sk1Cao4" resname="Search engine optimization.">
+        <source>Search engine optimization.</source>
+        <target>Search engine optimization.</target>
+      </trans-unit>
+      <trans-unit id="KL.u3ku" resname="Integration of third-party systems and applications.">
+        <source>Integration of third-party systems and applications.</source>
+        <target>Integration of third-party systems and applications.</target>
+      </trans-unit>
+      <trans-unit id="wpyM_JM" resname="Maintenance and support of websites.">
+        <source>Maintenance and support of websites.</source>
+        <target>Maintenance and support of websites.</target>
+      </trans-unit>
+      <trans-unit id="3V2DbMm" resname="I work to create clear, intuitive and aesthetically pleasing user interfaces for websites and applications, &#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;using a variety of design tools and techniques. This service includes :">
+        <source>I work to create clear, intuitive and aesthetically pleasing user interfaces for websites and applications, 
+							using a variety of design tools and techniques. This service includes :</source>
+        <target>I work to create clear, intuitive and aesthetically pleasing user interfaces for websites and applications, 
+							using a variety of design tools and techniques. This service includes :</target>
+      </trans-unit>
+      <trans-unit id="wy108kf" resname="User interface design.">
+        <source>User interface design.</source>
+        <target>User interface design.</target>
+      </trans-unit>
+      <trans-unit id="MlNVtUj" resname="Creation of wireframes and prototypes.">
+        <source>Creation of wireframes and prototypes.</source>
+        <target>Creation of wireframes and prototypes.</target>
+      </trans-unit>
+      <trans-unit id="RTIllfS" resname="The creation of user flows.">
+        <source>The creation of user flows.</source>
+        <target>The creation of user flows.</target>
+      </trans-unit>
+      <trans-unit id="3mb0CQV" resname="Optimizing accessibility and usability.">
+        <source>Optimizing accessibility and usability.</source>
+        <target>Optimizing accessibility and usability.</target>
+      </trans-unit>
+      <trans-unit id="OghW7jE" resname="Design and mockups of products for companies.">
+        <source>Design and mockups of products for companies.</source>
+        <target>Design and mockups of products for companies.</target>
+      </trans-unit>
+      <trans-unit id="5SGHqLm" resname="Brand &lt;br&gt; Content">
+        <source>Brand &lt;br&gt; Content</source>
+        <target><![CDATA[Brand <br> Content]]></target>
+      </trans-unit>
+      <trans-unit id="vZdgcu3" resname="Brand Content">
+        <source>Brand Content</source>
+        <target>Brand Content</target>
+      </trans-unit>
+      <trans-unit id="fjh6.t_" resname="I develop content strategies that strengthen your corporate brands, &#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;using digital channels such as social networks, blogs, videos and podcasts. My job is to:">
+        <source>I develop content strategies that strengthen your corporate brands, 
+							using digital channels such as social networks, blogs, videos and podcasts. My job is to:</source>
+        <target>I develop content strategies that strengthen your corporate brands, 
+							using digital channels such as social networks, blogs, videos and podcasts. My job is to:</target>
+      </trans-unit>
+      <trans-unit id="IgiNATt" resname="Creation of editorial and visual content.">
+        <source>Creation of editorial and visual content.</source>
+        <target>Creation of editorial and visual content.</target>
+      </trans-unit>
+      <trans-unit id="G99zrXW" resname="Video production.">
+        <source>Video production.</source>
+        <target>Video production.</target>
+      </trans-unit>
+      <trans-unit id="1TjpDvw" resname="Management of social networks.">
+        <source>Management of social networks.</source>
+        <target>Management of social networks.</target>
+      </trans-unit>
+      <trans-unit id="tlB0U1J" resname="The content marketing strategy.">
+        <source>The content marketing strategy.</source>
+        <target>The content marketing strategy.</target>
+      </trans-unit>
+      <trans-unit id="8lTCmZB" resname="I manage your company's online presence on social networks. &#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;I work to establish and develop positive relationships with customers and followers on social networks, &#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;creating and sharing engaging and relevant content for the audience.">
+        <source>I manage your company's online presence on social networks. 
+							I work to establish and develop positive relationships with customers and followers on social networks, 
+							creating and sharing engaging and relevant content for the audience.</source>
+        <target>I manage your company's online presence on social networks. 
+							I work to establish and develop positive relationships with customers and followers on social networks, 
+							creating and sharing engaging and relevant content for the audience.</target>
+      </trans-unit>
+      <trans-unit id="vZpffMl" resname="Management of social media accounts.">
+        <source>Management of social media accounts.</source>
+        <target>Management of social media accounts.</target>
+      </trans-unit>
+      <trans-unit id=".XEouRF" resname="Content planning and creation.">
+        <source>Content planning and creation.</source>
+        <target>Content planning and creation.</target>
+      </trans-unit>
+      <trans-unit id="pF9OZMZ" resname="Engagement with subscribers.">
+        <source>Engagement with subscribers.</source>
+        <target>Engagement with subscribers.</target>
+      </trans-unit>
+      <trans-unit id="QqfEU2Z" resname="Monitoring of social networks.">
+        <source>Monitoring of social networks.</source>
+        <target>Monitoring of social networks.</target>
+      </trans-unit>
+      <trans-unit id="gGOlNtc" resname="Measuring the impact of social media campaigns.">
+        <source>Measuring the impact of social media campaigns.</source>
+        <target>Measuring the impact of social media campaigns.</target>
+      </trans-unit>
+      <trans-unit id="aRT5yuJ" resname="I work to improve the visibility and ranking of your websites in organic search results. &#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;I optimize your websites for search engines, using a variety of techniques, such as :">
+        <source>I work to improve the visibility and ranking of your websites in organic search results. 
+							I optimize your websites for search engines, using a variety of techniques, such as :</source>
+        <target>I work to improve the visibility and ranking of your websites in organic search results. 
+							I optimize your websites for search engines, using a variety of techniques, such as :</target>
+      </trans-unit>
+      <trans-unit id="cvCMjVf" resname="The natural referencing strategy.">
+        <source>The natural referencing strategy.</source>
+        <target>The natural referencing strategy.</target>
+      </trans-unit>
+      <trans-unit id="InwmPv9" resname="Keyword analysis and optimization.">
+        <source>Keyword analysis and optimization.</source>
+        <target>Keyword analysis and optimization.</target>
+      </trans-unit>
+      <trans-unit id="pZ1OeBt" resname="Auditing of web sites.">
+        <source>Auditing of web sites.</source>
+        <target>Auditing of web sites.</target>
+      </trans-unit>
+      <trans-unit id="B3YkA8Y" resname="Creation of optimized content for search engines.">
+        <source>Creation of optimized content for search engines.</source>
+        <target>Creation of optimized content for search engines.</target>
+      </trans-unit>
+      <trans-unit id="WwQmB4y" resname="Measuring and monitoring the performance of natural referencing.">
+        <source>Measuring and monitoring the performance of natural referencing.</source>
+        <target>Measuring and monitoring the performance of natural referencing.</target>
+      </trans-unit>
+      <trans-unit id="hGQ3jDS" resname="My Portfolio">
+        <source>My Portfolio</source>
+        <target>My Portfolio</target>
+      </trans-unit>
+      <trans-unit id="d5FKCbI" resname="Recent Works">
+        <source>Recent Works</source>
+        <target>Recent Works</target>
+      </trans-unit>
+      <trans-unit id="pSrOQg8" resname="All">
+        <source>All</source>
+        <target>All</target>
+      </trans-unit>
+      <trans-unit id="rHyUnxI" resname="Inactive">
+        <source>Inactive</source>
+        <target>Inactive</target>
+      </trans-unit>
+      <trans-unit id="iizAZzs" resname="Demo">
+        <source>Demo</source>
+        <target>Demo</target>
+      </trans-unit>
+      <trans-unit id="i2vqmaS" resname="Let's talk about!">
+        <source>Let's talk about!</source>
+        <target>Let's talk about!</target>
+      </trans-unit>
+      <trans-unit id="EV5BDwH" resname="Get in touch">
+        <source>Get in touch</source>
+        <target>Get in touch</target>
+      </trans-unit>
+      <trans-unit id="ZZBYm3u" resname="Talk to me">
+        <source>Talk to me</source>
+        <target>Talk to me</target>
+      </trans-unit>
+      <trans-unit id="d2JVQSI" resname="Write me">
+        <source>Write me</source>
+        <target>Write me</target>
+      </trans-unit>
+      <trans-unit id="yiHjhH7" resname="Write me your project">
+        <source>Write me your project</source>
+        <target>Write me your project</target>
+      </trans-unit>
+      <trans-unit id="w7Kebu8" resname="Names">
+        <source>Names</source>
+        <target>Names</target>
+      </trans-unit>
+      <trans-unit id="qjyfXdJ" resname="Insert your name">
+        <source>Insert your name</source>
+        <target>Insert your name</target>
+      </trans-unit>
+      <trans-unit id="6ibtk.d" resname="Insert your email">
+        <source>Insert your email</source>
+        <target>Insert your email</target>
+      </trans-unit>
+      <trans-unit id="mFlZeFM" resname="Project">
+        <source>Project</source>
+        <target>Project</target>
+      </trans-unit>
+      <trans-unit id="Bd3lTpB" resname="Write your project">
+        <source>Write your project</source>
+        <target>Write your project</target>
+      </trans-unit>
+      <trans-unit id="D_BXH6z" resname="Send Message">
+        <source>Send Message</source>
+        <target>Send Message</target>
+      </trans-unit>
+      <trans-unit id="Tvyg0Qx" resname="About">
+        <source>About</source>
+        <target>About</target>
+      </trans-unit>
+      <trans-unit id="vko3pnY" resname="All rights reserved">
+        <source>All rights reserved</source>
+        <target>All rights reserved</target>
+      </trans-unit>
+      <trans-unit id="K0yMbTj" resname="Works">
+        <source>Works</source>
+        <target>Works</target>
+      </trans-unit>
+      <trans-unit id="OnhpU4i" resname="Home">
+        <source>Home</source>
+        <target>Home</target>
+      </trans-unit>
+      <trans-unit id="1pajW90" resname="Profile">
+        <source>Profile</source>
+        <target>Profile</target>
+      </trans-unit>
+      <trans-unit id="USqzxrm" resname="Education">
+        <source>Education</source>
+        <target>Education</target>
+      </trans-unit>
+      <trans-unit id="ZtD1I6N" resname="Skills">
+        <source>Skills</source>
+        <target>Skills</target>
+      </trans-unit>
+      <trans-unit id="FvY3kh6" resname="Certificates">
+        <source>Certificates</source>
+        <target>Certificates</target>
+      </trans-unit>
+      <trans-unit id="aYJNOw5" resname="References">
+        <source>References</source>
+        <target>References</target>
+      </trans-unit>
+      <trans-unit id="1ur_gjW" resname="Download">
+        <source>Download</source>
+        <target>Download</target>
+      </trans-unit>
+      <trans-unit id="vaxgngO" resname="Confident in my ability to work effectively in a fast-paced environment and leverage my web and mobile development skills to ensure the team's success. Always willing to learn and go the extra mile to advance projects and achieve goals.">
+        <source>Confident in my ability to work effectively in a fast-paced environment and leverage my web and mobile development skills to ensure the team's success. Always willing to learn and go the extra mile to advance projects and achieve goals.</source>
+        <target>Confident in my ability to work effectively in a fast-paced environment and leverage my web and mobile development skills to ensure the team's success. Always willing to learn and go the extra mile to advance projects and achieve goals.</target>
+      </trans-unit>
+      <trans-unit id="4laFrM5" resname="Master's degree in Software Engineering">
+        <source>Master's degree in Software Engineering</source>
+        <target>Master's degree in Software Engineering</target>
+      </trans-unit>
+      <trans-unit id="B_1BqFo" resname="Professional Bachelor's degree, 3rd year">
+        <source>Professional Bachelor's degree, 3rd year</source>
+        <target>Professional Bachelor's degree, 3rd year</target>
+      </trans-unit>
+      <trans-unit id="yd6f97F" resname="Advanced Technician's Certificate, IDA option">
+        <source>Advanced Technician's Certificate, IDA option</source>
+        <target>Advanced Technician's Certificate, IDA option</target>
+      </trans-unit>
+      <trans-unit id="eEBo3us" resname="E.T.S EDUFOR of Yopougon">
+        <source>E.T.S EDUFOR of Yopougon</source>
+        <target>E.T.S EDUFOR of Yopougon</target>
+      </trans-unit>
+      <trans-unit id="BnlGN5v" resname="High school diploma in science and mathematics (Bac D)">
+        <source>High school diploma in science and mathematics (Bac D)</source>
+        <target>High school diploma in science and mathematics (Bac D)</target>
+      </trans-unit>
+      <trans-unit id="ENB3HZG" resname="Collège St François of Yopougon">
+        <source>Collège St François of Yopougon</source>
+        <target>Collège St François of Yopougon</target>
+      </trans-unit>
+      <trans-unit id="XdMBT9M" resname="From 2019 to present | Senior FullStack Developer">
+        <source>From 2019 to present | Senior FullStack Developer</source>
+        <target>From 2019 to present | Senior FullStack Developer</target>
+      </trans-unit>
+      <trans-unit id="AWgS7LH" resname="Designing, administering, and maintaining websites and web applications for the agency and its clients.">
+        <source>Designing, administering, and maintaining websites and web applications for the agency and its clients.</source>
+        <target>Designing, administering, and maintaining websites and web applications for the agency and its clients.</target>
+      </trans-unit>
+      <trans-unit id="WwlDNOQ" resname="From 2017 to 2018 | Assistant FullStack Developer">
+        <source>From 2017 to 2018 | Assistant FullStack Developer</source>
+        <target>From 2017 to 2018 | Assistant FullStack Developer</target>
+      </trans-unit>
+      <trans-unit id="hZnORWU" resname="From the design to the administration of the websites, I ensured that the platforms were high-performance, secure and adapted to our customers' needs. Each site was a unique challenge that I met with passion.">
+        <source>From the design to the administration of the websites, I ensured that the platforms were high-performance, secure and adapted to our customers' needs. Each site was a unique challenge that I met with passion.</source>
+        <target>From the design to the administration of the websites, I ensured that the platforms were high-performance, secure and adapted to our customers' needs. Each site was a unique challenge that I met with passion.</target>
+      </trans-unit>
+      <trans-unit id="H5FBbYD" resname="From 2016 to 2017 | Hardware and software department manager">
+        <source>From 2016 to 2017 | Hardware and software department manager</source>
+        <target>From 2016 to 2017 | Hardware and software department manager</target>
+      </trans-unit>
+      <trans-unit id="wewJeFl" resname="My responsibilities included designing and administering our websites and web applications, &#10;                                        as well as maintaining all the computer hardware.">
+        <source>My responsibilities included designing and administering our websites and web applications, 
+                                        as well as maintaining all the computer hardware.</source>
+        <target>My responsibilities included designing and administering our websites and web applications, 
+                                        as well as maintaining all the computer hardware.</target>
+      </trans-unit>
+      <trans-unit id="Z21XXRj" resname="Chief Technical Officer">
+        <source>Chief Technical Officer</source>
+        <target>Chief Technical Officer</target>
+      </trans-unit>
+      <trans-unit id="GiS3aIw" resname="Mr.">
+        <source>Mr.</source>
+        <target>Mr.</target>
+      </trans-unit>
+      <trans-unit id="dut8Xqz" resname="Hr. Director">
+        <source>Hr. Director</source>
+        <target>Hr. Director</target>
+      </trans-unit>
+      <trans-unit id="JrNB7lX" resname="Mrs.">
+        <source>Mrs.</source>
+        <target>Mrs.</target>
+      </trans-unit>
+      <trans-unit id="MYZVzqS" resname="Languages">
+        <source>Languages</source>
+        <target>Languages</target>
+      </trans-unit>
+      <trans-unit id="uhGL9.y" resname="English">
+        <source>English</source>
+        <target>English</target>
+      </trans-unit>
+      <trans-unit id="dFgZn_l" resname="French">
+        <source>French</source>
+        <target>French</target>
+      </trans-unit>
+      <trans-unit id="NBEFnLj" resname="Spanish">
+        <source>Spanish</source>
+        <target>Spanish</target>
+      </trans-unit>
+      <trans-unit id="dWquoUB" resname="Interests">
+        <source>Interests</source>
+        <target>Interests</target>
+      </trans-unit>
+      <trans-unit id="brALSyY" resname="Music">
+        <source>Music</source>
+        <target>Music</target>
+      </trans-unit>
+      <trans-unit id="0rmPtTc" resname="Travel">
+        <source>Travel</source>
+        <target>Travel</target>
+      </trans-unit>
+      <trans-unit id="m5qNBaf" resname="Read">
+        <source>Read</source>
+        <target>Read</target>
+      </trans-unit>
+      <trans-unit id="0E7pGgL" resname="Fitness">
+        <source>Fitness</source>
+        <target>Fitness</target>
+      </trans-unit>
+      <trans-unit id="XEEqJiC" resname="Game">
+        <source>Game</source>
+        <target>Game</target>
+      </trans-unit>
+      <trans-unit id="E1nsiDs" resname="About me">
+        <source>About me</source>
+        <target>About me</target>
+      </trans-unit>
+      <trans-unit id="jGvAmVN" resname="Blog">
+        <source>Blog</source>
+        <target>Blog</target>
+      </trans-unit>
+      <trans-unit id="S_xghlb" resname="Call me">
+        <source>Call me</source>
+        <target>Call me</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="EMF Tech : Moussa FOFANA">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <title>{% block title %}{% endblock %} | Moussa Fofana</title>
+
+        <!-- ============ Favicons ============ -->
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/favicons/apple-touch-icon.png') }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/favicons/favicon-32x32.png') }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/favicons/favicon-16x16.png') }}">
+        <link rel="manifest" href="{{ asset('assets/favicons/site.webmanifest') }}">
+
+        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
+        
+        <!-- ============ Boxicons ============ -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- ============ SWIPER CSS ============ -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+        
+        <!-- ============ CSS ============ -->
+        <link href="{{asset('assets/css/style.css')}}" type='text/css' rel='stylesheet'>
+        {% block stylesheets %}{% endblock %}
+
+    </head>
+    <body>
+        <!-- ============ HEADER ============ -->
+        {{ render(controller(
+            'App\\Controller\\FrontController::header'
+        )) }}
+
+        <!-- ============ MAIN ============ -->
+        <main class="main">
+            {% block body %}{% endblock %}
+        </main>
+
+        <!-- ============ FOOTER ============ -->
+        {{ render(controller(
+            'App\\Controller\\FrontController::footer', {max: 3}
+        )) }}
+        
+        <!-- ============ SCROLLREVEAL ============ -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- ============ SWIPER JS ============ -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        <!-- ============ MIXITUP FILTER ============ -->
+        <script src="{{asset('assets/js/mixitup.min.js')}}"></script>
+
+        <!-- ============ MAIN JS ============ -->
+        <script src="{{asset('assets/js/main.js')}}"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <script type="text/javascript">
+            anime.timeline({loop: true})
+                .add({
+                    targets: '.ml15 .word',
+                    scale: [14,1],
+                    opacity: [0,1],
+                    easing: "easeOutCirc",
+                    duration: 800,
+                    delay: (el, i) => 800 * i
+                }).add({
+                    targets: '.ml15',
+                    opacity: 0,
+                    duration: 1000,
+                    easing: "easeOutExpo",
+                    delay: 5000
+                });
+        </script>
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

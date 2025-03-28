@@ -1,0 +1,53 @@
+Presentation
+
+Yo, bienvenue sur mon portfolio ! Je suis un passionné de code qui adore créer, 
+et bidouiller des expériences utilisateur de dingue avec les dernières technologies. 
+Mes compétences en développement web me permettent de concevoir des interfaces de folie tout en assurant une performance de malade. 
+Mes projets sont tous créés avec amour et optimisés pour une expérience de navigation au top. 
+Alors, si tu cherches un développeur fullstack qui sait ce qu'il fait et qui peut te délivrer un site de qualité supérieure, 
+n'hésite pas à me contacter !
+
+SERVICES
+
+(Web developpeur)
+Je crée des sites web personnalisés pour les entreprises ou les particuliers. 
+En utilisant des langages de programmation et des outils de développement 
+je concevoir des sites web fonctionnels et attrayants qui répondent aux besoins spécifiques de mes clients :
+- Réalisation de l'interface utilisateur
+- Développement d'applications web
+- Optimisation des moteurs de recherche
+- Intégration de systèmes et d'applications tiers
+- Maintenance et support de sites web
+
+(Ui/Ux Designeur)
+Je travaille à créer des interfaces utilisateur claires, intuitives et esthétiques pour les sites web et les applications, 
+en utilisant une variété d'outils et de techniques de conception. Ce service comprend :
+- la conception d'interfaces utilisateur
+- la création de wireframes et de prototypes
+- la création de parcours utilisateur (user flows)
+- l'optimisation de l'accessibilité et de la convivialité
+
+(Brand content)
+J'élabore des stratégies de contenu qui renforcent l'image de vos marques d'entreprise, 
+en utilisant des canaux numériques, tels que les réseaux sociaux, les blogs, les vidéos et les podcasts.
+Mon travail consiste à :
+- la création de contenu éditorial et visuel
+- la production de vidéos
+- la gestion des réseaux sociaux
+- la stratégie de marketing de contenu.
+
+(Community manager)
+Je gère la présence en ligne de vos entreprises sur les réseaux sociaux. Je travaille à établir et à développer des relations positives avec les clients et les abonnés sur les réseaux sociaux, en créant et en partageant du contenu engageant et pertinent pour l'audience.
+- la gestion de comptes de médias sociaux
+- la planification et la création de contenu
+- l'engagement avec les abonnés
+- la surveillance des réseaux sociaux
+- la mesure de l'impact des campagnes de médias sociaux.
+
+(SEO Manager)
+Je travaille à améliorer la visibilité et le classement de vos sites web dans les résultats de recherche organiques. Je me charge d'optimiser vos sites web pour les moteurs de recherche, en utilisant une variété de techniques, telles que l'optimisation des mots-clés, la création de contenu de qualité, la construction de liens et l'analyse de données. 
+- la stratégie de référencement naturel
+- l'analyse des mots-clés
+- l'audit des sites web
+- la création de contenu optimisé pour les moteurs de recherche
+- la mesure et le suivi de la performance du référencement naturel.
