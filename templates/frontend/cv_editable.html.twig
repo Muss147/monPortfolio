@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <title>Curriculum Vitae | Moussa Fofana</title>
+        <!-- ============ Favicons ============ -->
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/favicons/apple-touch-icon.png') }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/favicons/favicon-32x32.png') }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/favicons/favicon-16x16.png') }}">
+        <link rel="manifest" href="{{ asset('assets/favicons/site.webmanifest') }}">
+
+        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
+        
+        <!-- ============ BOX ICONS ============ -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- ============ SWIPER CSS ============ -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+        
+        <!-- ============ CSS ============ -->
+        <link href="{{asset('assets/css/cv.css')}}" type='text/css' rel='stylesheet'>
+        
+        <style type="text/css">
+            .pulse {
+                position: relative;
+                display: inline-block;
+            }
+
+            .pulse-ring {
+                display:block;
+                border-radius:40px;
+                height:40px;
+                width:40px;
+                position:absolute;
+                right: 0;
+                bottom: -10px;
+                animation:animation-pulse 3.5s ease-out;
+                animation-iteration-count:infinite;
+                opacity:0;
+                border-width:3px;
+                border-style:solid;
+                border-color:var(--bs-gray-500)
+            }
+            @keyframes animation-pulse {
+                0% {
+                    -webkit-transform:scale(.1,.1);
+                    opacity:0
+                }
+                60% {
+                    -webkit-transform:scale(.1,.1);
+                    opacity:0
+                }
+                65% {
+                    opacity:1
+                }
+                100% {
+                    -webkit-transform:scale(1.2,1.2);
+                    opacity:0
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <!-- ============ HEADER ============ -->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Moussa Fofana</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home nav__icon' ></i>{% trans %}Home{% endtrans %}
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon' ></i>{% trans %}Profile{% endtrans %}
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon' ></i>{% trans %}Education{% endtrans %}
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon' ></i>{% trans %}Skills{% endtrans %}
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon' ></i>{% trans %}Experience{% endtrans %}
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#works" class="nav__link">
+                                <i class='bx bx-briefcase-alt-2 nav__icon' ></i>{% trans %}Works{% endtrans %}
+                            </a>
+                        </li>
+                        <!--
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bx-award nav__icon' ></i>{% trans %}Certificates{% endtrans %}
+                            </a>
+                        </li>
+                        -->
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class='bx bx-link-external nav__icon' ></i>{% trans %}References{% endtrans %}
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+            </nav>
+        </header>
+
+        <!-- ============ MAIN ============ -->
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!-- ============ HOME ============ -->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="{{asset('assets/img/muss_resume2.webp')}}" alt="Moussa Fofana" class="home__img">
+
+                                <h1 class="home__title">MOUSSA <b>FOFANA</b></h1>
+                                <h3 class="home__profession">Lead Tech / Architecte Logiciel</h3>
+
+                                <!-- Button to download your CV saved in the pdf folder. Available for mobile -->
+                                {% if app.request.locale == 'en' %}
+                                <div>
+                                    <a dowload="" href="{{asset('assets/pdf/moussa-fofana-en-resume-white.pdf')}}" class="home__button-movil">{% trans %}Download{% endtrans %}</a>
+                                    <a dowload="" href="{{asset('assets/pdf/moussa-fofana-en-resume-dark.pdf')}}" class="home__button-movil d-none">{% trans %}Download{% endtrans %}</a>
+                                </div>
+                                {% elseif app.request.locale == 'fr' %}
+                                <div>
+                                    <a dowload="" href="{{asset('assets/pdf/moussa-fofana-fr-resume-white.pdf')}}" class="home__button-movil">{% trans %}Download{% endtrans %}</a>
+                                    <a dowload="" href="{{asset('assets/pdf/moussa-fofana-fr-resume-dark.pdf')}}" class="home__button-movil d-none">{% trans %}Download{% endtrans %}</a>
+                                </div>
+                                {% endif %}
+                            </div>
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon' ></i> Cocody, Abidjan, Côte d'Ivoire
+                                </span>
+                                <span class="home__information">
+                                    <a href="mailto:hello@moussa-fofana.com"  class="social__link">
+                                        <i class='bx bx-envelope home__icon' ></i> hello@moussa-fofana.com
+                                    </a>
+                                </span>
+                                <span class="home__information">
+                                    <a href="tel:002250747161221"  class="social__link">
+                                        <i class='bx bx-phone home__icon' ></i> (+225) 07-471-612-21
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Theme change button -->
+                        <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+
+                        <!-- Button to generate and dowload the pdf. Available for desktop -->
+                        <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button">
+                            <span class="pulse">
+                                <span class="pulse-ring"></span>
+                            </span>
+                        </i>
+                    </section>
+
+                    <!-- ============ SOCIAL ============ -->
+                    <section class="social section">
+                        <h2 class="section-title">Social</h2>
+                        
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin.com/in/moussa-fofana-9550821a9/" target="_blank" class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon' ></i> @moussa-fofana
+                            </a>
+                            <a href="https://www.facebook.com/MussLilStar" target="_blank" class="social__link">
+                                <i class='bx bxl-facebook social__icon' ></i> @MoussaFofana
+                            </a>
+                            <a href="https://github.com/Muss147" target="_blank" class="social__link">
+                                <i class='bx bxl-github social__icon' ></i> @Muss147
+                            </a>
+                        </div>
+                    </section>
+
+                    <!-- ============ PROFILE ============ -->
+                    <section class="profile section d-block d-md-none" id="profile">
+                        <h2 class="section-title">{% trans %}Profile{% endtrans %}</h2>
+
+                        <p class="profile__description">
+                            Développeur et architecte expérimenté avec plus de 5 ans d'expertise en développement full-stack, DevOps et gestion d'infrastructures cloud. Spécialiste des solutions SaaS et des intégrations multi-technologies, avec une forte appétence pour l'automatisation et l'optimisation des processus techniques.
+                        </p>
+                    </section>
+
+                    <!-- ============ EDUCATION ============ -->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">{% trans %}Education{% endtrans %}</h2>
+
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">{% trans %}Master's degree in Software Engineering{% endtrans %}</h3>
+                                    <span class="education__studies">H.E.C GECOS Formation</span>
+                                    <span class="education__year">2015 - 2017</span>
+                                </div>
+                            </div>
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">{% trans %}Professional Bachelor's degree, 3rd year{% endtrans %}</h3>
+                                    <span class="education__studies">H.E.C GECOS Formation</span>
+                                    <span class="education__year">2014 - 2015</span>
+                                </div>
+                            </div>
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">{% trans %}Advanced Technician's Certificate, IDA option{% endtrans %}</h3>
+                                    <span class="education__studies">{% trans %}E.T.S EDUFOR of Yopougon{% endtrans %}</span>
+                                    <span class="education__year">2010 - 2012</span>
+                                </div>
+                            </div>
+                            <!-- // BACCALAUREAT //
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">{% trans %}High school diploma in science and mathematics (Bac D){% endtrans %}</h3>
+                                    <span class="education__studies">{% trans %}Collège St François of Yopougon{% endtrans %}</span>
+                                    <span class="education__year">2009 - 2010</span>
+                                </div>
+                            </div> -->
+                        </div>
+                    </section>
+
+                    <!-- ============ REFERENCES ============ -->
+                    <section class="references section" id="references">
+                        <h2 class="section-title">{% trans %}References{% endtrans %}</h2>
+
+                        <div class="references__container">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">{% trans %}Chief Digital Officer{% endtrans %}</span>
+                                <h3 class="references__title">{% trans %}Mr.{% endtrans %} Franck Donald Bassa</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: (+225) 07-47-990-222</li>
+                                    <li>Email: dbassa@aguimaagency.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="resume__right">
+                    <section class="profile section d-none d-md-block" id="profile">
+                        <h2 class="section-title">{% trans %}Profile{% endtrans %}</h2>
+
+                        <p class="profile__description">
+                            Développeur et architecte expérimenté avec plus de 5 ans d'expertise en développement full-stack, DevOps et gestion d'infrastructures cloud. Spécialiste des solutions SaaS et des intégrations multi-technologies, avec une forte appétence pour l'automatisation et l'optimisation des processus techniques.
+                        </p>
+                    </section>
+                    <!-- ============ EXPERIENCE ============ -->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">{% trans %}Experience{% endtrans %}</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">AGUIMA WEB AGENCY</h3>
+                                    <span class="experience__company">De 2023 à 2025 | Lead Tech & Architecte Logiciel</span>
+                                    <div class="experience__description">
+                                        <ul>
+                                            <li><b> ✱ Évaluation technique et architecture :</b> Lecture et analyse des cahiers des charges, définition d’architectures évolutives et scalables (SaaS, APIs, microservices).</li>
+                                            <li><b> ✱ Développement et intégration :</b> Implémentation d’APIs REST et webhooks, choix et validation des frameworks (Symfony, Node.js, Python).</li>
+                                            <li><b> ✱ Cloud & DevOps :</b> Automatisation des déploiements sur AWS/GCP/Azure, gestion des pipelines CI/CD (GitHub Actions, GitLab CI), orchestration avec Docker/Kubernetes.</li>
+                                            <li><b> ✱ Gestion des outils internes :</b> Mise en place d’ERP/CRM et développement d’outils internes pour optimiser la production.</li>
+                                            {# <li><b> + Veille technologique et innovation :</b> Suivi des tendances, proposition de solutions techniques pour améliorer la performance et la fiabilité des applications.</li> #}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">AGUIMA WEB AGENCY</h3>
+                                    <span class="experience__company">De 2019 à 2023 | Développeur Full-Stack Senior</span>
+                                    <div class="experience__description">
+                                        <ul>
+                                            <li> ✱ Développement et maintenance d'applications web complexes (Symfony, Vue.js, Laravel).</li>
+                                            <li> ✱ Optimisation des performances et gestion des bases de données MySQL/PostgreSQL.</li>
+                                            <li> ✱ Intégration de solutions de paiement et de services tiers via APIs.</li>
+                                            <li> ✱ Déploiement d'applications cloud et gestion des infrastructures.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- ============ SKILLS ============ -->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">{% trans %}Skills{% endtrans %}</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> 
+                                    <span><b>Langages & Frameworks :</b> PHP (Symfony, Laravel), JavaScript (Vue.js, Node.js), Python.</span>
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> 
+                                    <span><b>Cloud & DevOps :</b> AWS, Azure, Docker, Kubernetes, CI/CD, Terraform.</span>
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> 
+                                    <span><b>Bases de données :</b> MySQL, PostgreSQL, NoSQL (MongoDB).</span>
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> 
+                                    <span><b>Outils & Automatisation :</b> Git, GitHub Actions, GitLab CI, Scripting Bash/Python.</span>
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> 
+                                    <span><b>Architecture & Sécurité :</b> Microservices, APIs, gestion des performances et scalabilité.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!-- ============ WORKS ============ -->
+                    {# <section class="works section" id="works">
+                        <h2 class="section-title">Qualités & Soft Skills</h2>
+
+                        <div class="works__content bd-grid">
+                            <ul class="works__data">
+                                <li class="works__name">
+                                    <span class="works__circle"></span> 
+                                    Capacité d’analyse et de synthèse des besoins techniques.
+                                </li>
+                                <li class="works__name">
+                                    <span class="works__circle"></span> 
+                                    Communication efficace avec les équipes métiers et techniques.
+                                </li>
+                            </ul>
+
+                            <ul class="works__data">
+                                <li class="works__name">
+                                    <span class="works__circle"></span> 
+                                    Esprit d’initiative et résolution de problèmes complexes.
+                                </li>
+                                <li class="works__name">
+                                    <span class="works__circle"></span> 
+                                    Rigueur et organisation dans la gestion des projets.
+                                </li>
+                            </ul>
+                        </div>
+                    </section> #}
+                    <!-- ============ CERTIFICATES ============ -->
+                    {# <section class="certificate section" id="certificates">
+                        <h2 class="section-title">{% trans %}Certificates{% endtrans %}</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Certified for compliance in the work area (2012)</h3>
+                                <p class="certificate__description">
+                                    For meeting the expectations of leading the team to work the specified tasks in the labor field.
+                                </p>
+                            </div>
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Certificate of attendance on computer technology</h3>
+                                <p class="certificate__description">
+                                    For meeting the expectations of leading the team to work the specified tasks in the labor field.
+                                </p>
+                            </div>
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Achievement medal for productivity excellence during the year 2019</h3>
+                                <p class="certificate__description">
+                                    For meeting the expectations of leading the team to work the specified tasks in the labor field.
+                                </p>
+                            </div>
+                        </div>
+                    </section> #}
+
+                    <!-- ============ LANGUAGES ============ -->
+                    <section class="languages section">
+                        <h2 class="section-title">{% trans %}Languages{% endtrans %}</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> {% trans %}English{% endtrans %}
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> {% trans %}French{% endtrans %}
+                                </li>
+                                <!-- <li class="languages__name">
+                                    <span class="languages__circle"></span> {% trans %}Spanish{% endtrans %}
+                                </li> -->
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!-- ============ INTERESTS ============ -->
+                    <section class="interests section">
+                        <h2 class="section-title">{% trans %}Interests{% endtrans %}</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bx-headphone interests__icon' ></i>
+                                <span class='interests__name'>{% trans %}Music{% endtrans %}</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bxs-plane-alt interests__icon' ></i>
+                                <span class='interests__name'>{% trans %}Travel{% endtrans %}</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-book interests__icon' ></i>
+                                <span class='interests__name'>{% trans %}Read{% endtrans %}</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-dumbbell interests__icon' ></i>
+                                <span class='interests__name'>{% trans %}Fitness{% endtrans %}</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-game interests__icon' ></i>
+                                <span class='interests__name'>{% trans %}Game{% endtrans %}</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <!-- ============ SCROLL TOP ============ -->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon' ></i>
+        </a>
+
+        <!-- ============ HTML2PDF ============ -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        {# <script src="{{asset('assets/js/html2pdf.bundle.min.js')}}"></script> #}
+
+        <!-- ============ MAIN JS ============ -->
+        <script src="{{asset('assets/js/cv.js')}}" type='text/javascript' rel='stylesheet'></script>
+    </body>
+</html>
