@@ -132,7 +132,7 @@
                                 <img src="{{asset('assets/img/muss_resume2.webp')}}" alt="Moussa Fofana" class="home__img">
 
                                 <h1 class="home__title">MOUSSA <b>FOFANA</b></h1>
-                                <h3 class="home__profession">Lead Tech / Architecte Logiciel</h3>
+                                <h3 class="home__profession">DevOps,<br> {% trans %}Senior FullStack Developer{% endtrans %}</h3>
 
                                 <!-- Button to download your CV saved in the pdf folder. Available for mobile -->
                                 {% if app.request.locale == 'en' %}
@@ -153,8 +153,8 @@
                                     <i class='bx bx-map home__icon' ></i> Cocody, Abidjan, Côte d'Ivoire
                                 </span>
                                 <span class="home__information">
-                                    <a href="mailto:hello@moussa-fofana.com"  class="social__link">
-                                        <i class='bx bx-envelope home__icon' ></i> hello@moussa-fofana.com
+                                    <a href="mailto:contact@moussa-fofana.dev"  class="social__link">
+                                        <i class='bx bx-envelope home__icon' ></i> contact@moussa-fofana.dev
                                     </a>
                                 </span>
                                 <span class="home__information">
@@ -187,8 +187,8 @@
                             <a href="https://www.facebook.com/MussLilStar" target="_blank" class="social__link">
                                 <i class='bx bxl-facebook social__icon' ></i> @MoussaFofana
                             </a>
-                            <a href="https://github.com/Muss147" target="_blank" class="social__link">
-                                <i class='bx bxl-github social__icon' ></i> @Muss147
+                            <a href="https://www.instagram.com/MussLilStar" target="_blank" class="social__link">
+                                <i class='bx bxl-instagram social__icon' ></i> @MoussaFofana
                             </a>
                         </div>
                     </section>
@@ -198,7 +198,7 @@
                         <h2 class="section-title">{% trans %}Profile{% endtrans %}</h2>
 
                         <p class="profile__description">
-                            Développeur et architecte expérimenté avec plus de 5 ans d'expertise en développement full-stack, DevOps et gestion d'infrastructures cloud. Spécialiste des solutions SaaS et des intégrations multi-technologies, avec une forte appétence pour l'automatisation et l'optimisation des processus techniques.
+                            {% trans %}Confident in my ability to work effectively in a fast-paced environment and leverage my web and mobile development skills to ensure the team's success. Always willing to learn and go the extra mile to advance projects and achieve goals.{% endtrans %}
                         </p>
                     </section>
 
@@ -280,7 +280,7 @@
                         <h2 class="section-title">{% trans %}Profile{% endtrans %}</h2>
 
                         <p class="profile__description">
-                            Développeur et architecte expérimenté avec plus de 5 ans d'expertise en développement full-stack, DevOps et gestion d'infrastructures cloud. Spécialiste des solutions SaaS et des intégrations multi-technologies, avec une forte appétence pour l'automatisation et l'optimisation des processus techniques.
+                            {% trans %}Confident in my ability to work effectively in a fast-paced environment and leverage my web and mobile development skills to ensure the team's success. Always willing to learn and go the extra mile to advance projects and achieve goals.{% endtrans %}
                         </p>
                     </section>
                     <!-- ============ EXPERIENCE ============ -->
@@ -296,16 +296,24 @@
 
                                 <div class="experience__data bd-grid">
                                     <h3 class="experience__title">AGUIMA WEB AGENCY</h3>
-                                    <span class="experience__company">De 2023 à 2025 | Lead Tech & Architecte Logiciel</span>
-                                    <div class="experience__description">
-                                        <ul>
-                                            <li><b> ✱ Évaluation technique et architecture :</b> Lecture et analyse des cahiers des charges, définition d’architectures évolutives et scalables (SaaS, APIs, microservices).</li>
-                                            <li><b> ✱ Développement et intégration :</b> Implémentation d’APIs REST et webhooks, choix et validation des frameworks (Symfony, Node.js, Python).</li>
-                                            <li><b> ✱ Cloud & DevOps :</b> Automatisation des déploiements sur AWS/GCP/Azure, gestion des pipelines CI/CD (GitHub Actions, GitLab CI), orchestration avec Docker/Kubernetes.</li>
-                                            <li><b> ✱ Gestion des outils internes :</b> Mise en place d’ERP/CRM et développement d’outils internes pour optimiser la production.</li>
-                                            {# <li><b> + Veille technologique et innovation :</b> Suivi des tendances, proposition de solutions techniques pour améliorer la performance et la fiabilité des applications.</li> #}
-                                        </ul>
-                                    </div>
+                                    <span class="experience__company">{% trans %}From 2023 to present | Lead Developer / DEVOPS{% endtrans %}</span>
+                                    <p class="experience__description">
+                                        {% trans %}Design and implementation of scalable and resilient software architectures. Management of deployment pipelines and automation of continuous delivery processes.{% endtrans %}
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">AGUIMA WEB AGENCY</h3>
+                                    <span class="experience__company">{% trans %}From 2019 to 2023 | Senior Fullstack Developer{% endtrans %}</span>
+                                    <p class="experience__description">
+                                        {% trans %}Development and maintenance of complete web applications, from initial design to delivery. Mentoring junior team members and sharing best practices to support their professional growth.{% endtrans %}
+                                    </p>
                                 </div>
                             </div>
                             <div class="experience__content">
@@ -315,16 +323,11 @@
                                 </div>
 
                                 <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">AGUIMA WEB AGENCY</h3>
-                                    <span class="experience__company">De 2019 à 2023 | Développeur Full-Stack Senior</span>
-                                    <div class="experience__description">
-                                        <ul>
-                                            <li> ✱ Développement et maintenance d'applications web complexes (Symfony, Vue.js, Laravel).</li>
-                                            <li> ✱ Optimisation des performances et gestion des bases de données MySQL/PostgreSQL.</li>
-                                            <li> ✱ Intégration de solutions de paiement et de services tiers via APIs.</li>
-                                            <li> ✱ Déploiement d'applications cloud et gestion des infrastructures.</li>
-                                        </ul>
-                                    </div>
+                                    <h3 class="experience__title">ISNA - Internet Software & Network Associates</h3>
+                                    <span class="experience__company">{% trans %}From 2017 to 2018 | Junior Fullstack Developer{% endtrans %}</span>
+                                    <p class="experience__description">
+                                        {% trans %}From the design to the administration of the websites, I ensured that the platforms were high-performance, secure and adapted to our customers' needs. Each site was a unique challenge that I met with passion.{% endtrans %}
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -337,60 +340,80 @@
                         <div class="skills__content bd-grid">
                             <ul class="skills__data">
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span> 
-                                    <span><b>Langages & Frameworks :</b> PHP (Symfony, Laravel), JavaScript (Vue.js, Node.js), Python.</span>
+                                    <span class="skills__circle"></span> HTML5 / CSS3
                                 </li>
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span> 
-                                    <span><b>Cloud & DevOps :</b> AWS, Azure, Docker, Kubernetes, CI/CD, Terraform.</span>
+                                    <span class="skills__circle"></span> Javascript / VueJS
                                 </li>
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span> 
-                                    <span><b>Bases de données :</b> MySQL, PostgreSQL, NoSQL (MongoDB).</span>
+                                    <span class="skills__circle"></span> React JS / React Native
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Tailwind CSS / Bootstrap
                                 </li>
                             </ul>
 
                             <ul class="skills__data">
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span> 
-                                    <span><b>Outils & Automatisation :</b> Git, GitHub Actions, GitLab CI, Scripting Bash/Python.</span>
+                                    <span class="skills__circle"></span> PHP 7/8
                                 </li>
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span> 
-                                    <span><b>Architecture & Sécurité :</b> Microservices, APIs, gestion des performances et scalabilité.</span>
+                                    <span class="skills__circle"></span> Symfony / Laravel
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Github / Docker
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> MySQL DB / PostgreSQL
                                 </li>
                             </ul>
                         </div>
                     </section>
                     
                     <!-- ============ WORKS ============ -->
-                    {# <section class="works section" id="works">
-                        <h2 class="section-title">Qualités & Soft Skills</h2>
+                    <section class="works section" id="works">
+                        <h2 class="section-title">{% trans %}Recent Works{% endtrans %}</h2>
 
                         <div class="works__content bd-grid">
                             <ul class="works__data">
                                 <li class="works__name">
                                     <span class="works__circle"></span> 
-                                    Capacité d’analyse et de synthèse des besoins techniques.
+                                    <a href="https://maxigift.net" target="_blank" class="social__link">www.maxigift.net</a>
                                 </li>
                                 <li class="works__name">
                                     <span class="works__circle"></span> 
-                                    Communication efficace avec les équipes métiers et techniques.
+                                    <a href="https://eticketgo.com" target="_blank" class="social__link">www.eticketgo.com</a>
+                                </li>
+                                <li class="works__name">
+                                    <span class="works__circle"></span> 
+                                    <a href="https://almaproductionci.com" target="_blank" class="social__link">www.almaproductionci.com</a>
+                                </li>
+                                <li class="works__name">
+                                    <span class="works__circle"></span> 
+                                    <a href="https://sogedim.ci.com" target="_blank" class="social__link">www.sogedim.ci.com</a>
                                 </li>
                             </ul>
 
                             <ul class="works__data">
                                 <li class="works__name">
                                     <span class="works__circle"></span> 
-                                    Esprit d’initiative et résolution de problèmes complexes.
+                                    <a href="https://modenainternational.com" target="_blank" class="social__link">www.modenainternational.com</a>
                                 </li>
                                 <li class="works__name">
                                     <span class="works__circle"></span> 
-                                    Rigueur et organisation dans la gestion des projets.
+                                    <a href="https://modenamali.com" target="_blank" class="social__link">www.modenamali.com</a>
+                                </li>
+                                <li class="works__name">
+                                    <span class="works__circle"></span> 
+                                    <a href="https://residencezelizo.com" target="_blank" class="social__link">www.residencezelizo.com</a>
+                                </li>
+                                <li class="works__name">
+                                    <span class="works__circle"></span> 
+                                    <a href="https://jadoremabanque.com" target="_blank" class="social__link">www.jadoremabanque.com</a>
                                 </li>
                             </ul>
                         </div>
-                    </section> #}
+                    </section>
                     <!-- ============ CERTIFICATES ============ -->
                     {# <section class="certificate section" id="certificates">
                         <h2 class="section-title">{% trans %}Certificates{% endtrans %}</h2>
