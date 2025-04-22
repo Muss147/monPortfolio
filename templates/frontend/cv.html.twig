@@ -184,11 +184,11 @@
                             <a href="https://www.linkedin.com/in/moussa-fofana-9550821a9/" target="_blank" class="social__link">
                                 <i class='bx bxl-linkedin-square social__icon' ></i> @moussa-fofana
                             </a>
-                            <a href="https://www.facebook.com/MussLilStar" target="_blank" class="social__link">
-                                <i class='bx bxl-facebook social__icon' ></i> @MoussaFofana
-                            </a>
                             <a href="https://github.com/Muss147" target="_blank" class="social__link">
                                 <i class='bx bxl-github social__icon' ></i> @Muss147
+                            </a>
+                            <a href="https://moussa-fofana.site/" target="_blank" class="social__link">
+                                <i class='bx bx-globe social__icon' ></i> https://moussa-fofana.site
                             </a>
                         </div>
                     </section>
@@ -198,7 +198,7 @@
                         <h2 class="section-title">{% trans %}Profile{% endtrans %}</h2>
 
                         <p class="profile__description">
-                            Développeur full-stack passionné avec plus de 5 ans d’expérience, alliant expertise backend (PHP/Symfony/Laravel, Python/Django) et frontend (Vue.js). Spécialisé dans la conception d’applications web performantes, évolutives et sécurisées, avec une approche orientée produit, UX et DevOps.
+                            {% trans %}Passionate full-stack developer with over 5 years of experience, combining backend expertise (PHP/Symfony/Laravel, Python/Django) with frontend skills (Vue.js). Specialized in building high-performance, scalable, and secure web applications with a product-oriented, UX-focused, and DevOps-driven approach.{% endtrans %}
                         </p>
                     </section>
 
@@ -280,7 +280,7 @@
                         <h2 class="section-title">{% trans %}Profile{% endtrans %}</h2>
 
                         <p class="profile__description">
-                            Développeur full-stack passionné avec plus de 5 ans d’expérience, alliant expertise backend (PHP/Symfony/Laravel, Python/Django) et frontend (Vue.js). Spécialisé dans la conception d’applications web performantes, évolutives et sécurisées, avec une approche orientée produit, UX et DevOps.
+                            {% trans %}Passionate full-stack developer with over 5 years of experience, combining backend expertise (PHP/Symfony/Laravel, Python/Django) with frontend skills (Vue.js). Specialized in building high-performance, scalable, and secure web applications with a product-oriented, UX-focused, and DevOps-driven approach.{% endtrans %}
                         </p>
                     </section>
                     <!-- ============ EXPERIENCE ============ -->
@@ -296,9 +296,9 @@
 
                                 <div class="experience__data bd-grid">
                                     <h3 class="experience__title">AGUIMA WEB AGENCY</h3>
-                                    <span class="experience__company">{% trans %}From 2023 to present | Lead Developer / DEVOPS{% endtrans %}</span>
+                                    <span class="experience__company">{% trans %}From 2023 to 2025 | Lead Developer{% endtrans %}</span>
                                     <p class="experience__description">
-                                        Encadrement d’équipe, architecture scalable, supervision de projets full-stack, gestion de déploiements cloud (AWS, Azure) et collaboration stratégique avec les parties prenantes.
+                                        {% trans %}Team leadership, scalable architecture, full-stack project oversight, cloud deployment management (AWS, Azure), and strategic collaboration with stakeholders.{% endtrans %}
                                     </p>
                                 </div>
                             </div>
@@ -312,7 +312,7 @@
                                     <h3 class="experience__title">AGUIMA WEB AGENCY</h3>
                                     <span class="experience__company">{% trans %}From 2019 to 2023 | Senior Fullstack Developer{% endtrans %}</span>
                                     <p class="experience__description">
-                                        Développement web avec Django, Laravel, Vue.js ; intégration d’APIs, CI/CD, conteneurisation Docker, optimisation des performances et collaboration produit/design.
+                                        {% trans %}Web development with Django, Laravel, and Vue.js; API integration, CI/CD, Docker containerization, performance optimization, and close collaboration with product and design teams.{% endtrans %}
                                     </p>
                                 </div>
                             </div>
@@ -326,7 +326,7 @@
                                     <h3 class="experience__title">ISNA - Internet Software & Network Associates</h3>
                                     <span class="experience__company">{% trans %}From 2017 to 2018 | Junior Fullstack Developer{% endtrans %}</span>
                                     <p class="experience__description">
-                                        Développement d’APIs avec Laravel/Symfony, gestion de bases de données (MySQL, PostgreSQL, MongoDB), maintenance applicative et amélioration continue.
+                                        {% trans %}API development with Laravel/Symfony, database management (MySQL, PostgreSQL, MongoDB), application maintenance, and continuous improvement.{% endtrans %}
                                     </p>
                                 </div>
                             </div>
@@ -341,26 +341,26 @@
                             <ul class="skills__data">
                                 <li class="skills__name">
                                     <span class="skills__circle"></span> 
-                                    <span><b>Langages & Frameworks :</b> PHP (Laravel, Symfony), Python (Django), JavaScript (Vue.js).</span>
+                                    <span><b>{% trans %}Languages & Frameworks{% endtrans %} :</b> PHP (Laravel, Symfony), Python (Django), JavaScript (Vue.js).</span>
                                 </li>
                                 <li class="skills__name">
                                     <span class="skills__circle"></span> 
-                                    <span><b>Bases de données :</b> MySQL, PostgreSQL, MongoDB.</span>
+                                    <span><b>{% trans %}Databases{% endtrans %} :</b> MySQL, PostgreSQL, MongoDB.</span>
                                 </li>
                                 <li class="skills__name">
                                     <span class="skills__circle"></span> 
-                                    <span><b>Outils & DevOps :</b> Git, GitHub/GitLab, CI/CD, Docker, AWS, Azure.</span>
+                                    <span><b>{% trans %}Tools & DevOps{% endtrans %} :</b> Git, GitHub/GitLab, CI/CD, Docker, AWS, Azure.</span>
                                 </li>
                             </ul>
 
                             <ul class="skills__data">
                                 <li class="skills__name">
                                     <span class="skills__circle"></span> 
-                                    <span><b>Sécurité :</b> Connaissance des bonnes pratiques de sécurité web (XSS, CSRF, authentification, etc.).</span>
+                                    <span><b>{% trans %}Security{% endtrans %} :</b> {% trans %}Knowledge of web security best practices (XSS, CSRF, authentication, etc.){% endtrans %}</span>
                                 </li>
                                 <li class="skills__name">
                                     <span class="skills__circle"></span> 
-                                    <span><b>Autres :</b> Intégration d’APIs, architecture REST, responsive design, UX collaboratif.</span>
+                                    <span><b>{% trans %}Others{% endtrans %} :</b> {% trans %}API integration, REST architecture, responsive design, collaborative UX.{% endtrans %}</span>
                                 </li>
                             </ul>
                         </div>
@@ -374,11 +374,11 @@
                             <ul class="works__data">
                                 <li class="works__name">
                                     <span class="works__circle"></span> 
-                                    Esprit d’équipe et capacité à collaborer avec les équipes produit, design et technique.
+                                    {% trans %}Team spirit and ability to collaborate with product, design, and technical teams.{% endtrans %}
                                 </li>
                                 <li class="works__name">
                                     <span class="works__circle"></span> 
-                                    Autonomie, curiosité, et envie constante d’apprendre de nouvelles technologies.
+                                    {% trans %}Autonomy, curiosity, and a constant desire to learn new technologies.{% endtrans %}
                                 </li>
                                 {# <li class="works__name">
                                     <span class="works__circle"></span> 

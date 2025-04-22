@@ -53,14 +53,13 @@
         <source>Online 24/7</source>
         <target>En ligne 24h/7j</target>
       </trans-unit>
-      <trans-unit id="beVpaI3" resname="Welcome to my portfolio! I'm a coding enthusiast who loves to create and tinker with applications. My skills in web and mobile development enable me to design unique and modern interfaces while ensuring unprecedented performance. All of my projects are created with love and optimized for top-notch user experience. So, if you're looking for a full-stack developer who knows what he's doing and can deliver a high-quality website, don't hesitate to contact me!">
-        <source>Welcome to my portfolio! I'm a coding enthusiast who loves to create and tinker with applications. My skills in web and mobile development enable me to design unique and modern interfaces while ensuring unprecedented performance. All of my projects are created with love and optimized for top-notch user experience. So, if you're looking for a full-stack developer who knows what he's doing and can deliver a high-quality website, don't hesitate to contact me!</source>
+      <trans-unit id="1s9hUSO" resname="Welcome to my portfolio! I'm a coding enthusiast who loves to create and tinker with applications. I help businesses and individuals design high-performance, user-friendly, and well-thought-out applications—from robust back-end systems to polished user interfaces. Whether it’s a showcase website, a business platform, or a custom tool, each project is an opportunity for me to blend technical precision, creativity, and user experience. Looking for a developer who understands your needs, masters their stack, and delivers real results? Let’s talk!">
+        <source>Welcome to my portfolio! I'm a coding enthusiast who loves to create and tinker with applications. I help businesses and individuals design high-performance, user-friendly, and well-thought-out applications—from robust back-end systems to polished user interfaces. Whether it’s a showcase website, a business platform, or a custom tool, each project is an opportunity for me to blend technical precision, creativity, and user experience. Looking for a developer who understands your needs, masters their stack, and delivers real results? Let’s talk!</source>
         <target>Bienvenue sur mon portfolio ! Je suis un passionné de code qui adore créer 
           et bidouiller des applications. 
-          Mes compétences en développement web et mobile me permettent de concevoir des interfaces uniques et modernes tout en assurant une performance inouïe. 
-          Mes projets sont tous créés avec amour et optimisés pour une expérience de navigation au top. 
-          Alors, si tu cherches un développeur fullstack qui sait ce qu'il fait et qui peut te délivrer un site de qualité supérieure, 
-          n'hésite pas à me contacter !</target>
+          J’accompagne les entreprises et les particuliers dans la conception d’applications performantes, ergonomiques et bien pensées, du back-end robuste à l’interface utilisateur soignée.
+          Que ce soit pour un site vitrine, une plateforme métier ou un outil sur-mesure, chaque projet est pour moi une opportunité de mêler rigueur technique, créativité et expérience utilisateur.
+          Tu recherches un développeur qui comprend tes besoins, maîtrise sa stack, et livre des résultats concrets ? Parlons-en !</target>
       </trans-unit>
       <trans-unit id="oYbubAc" resname="Contact Me">
         <source>Contact Me</source>
@@ -73,10 +72,6 @@
       <trans-unit id="L210y6d" resname="My Experience">
         <source>My Experience</source>
         <target>Compétences</target>
-      </trans-unit>
-      <trans-unit id="7PYnPh4" resname="Frontend Developer">
-        <source>Frontend Developer</source>
-        <target>Développeur Frontend</target>
       </trans-unit>
       <trans-unit id="rWM97hF" resname="Basic">
         <source>Basic</source>
@@ -379,9 +374,9 @@
         <source>Collège St François of Yopougon</source>
         <target>Collège St François de Yopougon</target>
       </trans-unit>
-      <trans-unit id=".Oo4BSB" resname="From 2019 to present | Senior Fullstack Developer">
-        <source>From 2019 to present | Senior Fullstack Developer</source>
-        <target>De 2019 à aujourd'hui | Développeur Fullstack Senior</target>
+      <trans-unit id="sid6LC_" resname="From 2019 to 2025 | Senior Fullstack Developer">
+        <source>From 2019 to 2025 | Senior Fullstack Developer</source>
+        <target>De 2019 à 2025 | Développeur Fullstack Senior</target>
       </trans-unit>
       <trans-unit id="0KB5Aop" resname="Designing, administering, and maintaining websites and web applications for the agency and its clients.">
         <source>Designing, administering, and maintaining websites and web applications for the agency and its clients.</source>
@@ -486,9 +481,9 @@
         <source>Mobile Developer</source>
         <target>Développeur mobile</target>
       </trans-unit>
-      <trans-unit id="NtTviuk" resname="Backend Developer / Database">
-        <source>Backend Developer / Database</source>
-        <target>Développeur Backend / Base de données</target>
+      <trans-unit id="00umWej" resname="Backend / Database">
+        <source>Backend / Database</source>
+        <target>Backend / Base de données</target>
       </trans-unit>
       <trans-unit id="ymQJjyi" resname="Using technologies such as Flutter and Dart, I develop high-performance, cross-platform, attractive mobile applications tailored to your specific needs:">
         <source>Using technologies such as Flutter and Dart, I develop high-performance, cross-platform, attractive mobile applications tailored to your specific needs:</source>
@@ -550,9 +545,9 @@
         <source>User Experience (UX) is a key success factor for any website or application. Good UX design can increase user engagement, reduce bounce rates, and improve overall user satisfaction. Here are some best practices for optimizing UX in web development...</source>
         <target>L'expérience utilisateur (UX) est un facteur clé de succès pour tout site web ou application. Un bon design UX peut augmenter l'engagement des utilisateurs, réduire les taux de rebond et améliorer la satisfaction globale des utilisateurs. Voici quelques meilleures pratiques pour optimiser l'UX dans le développement web...</target>
       </trans-unit>
-      <trans-unit id="SJ3llwy" resname="From 2023 to present | Lead Developer / DEVOPS">
-        <source>From 2023 to present | Lead Developer / DEVOPS</source>
-        <target>De 2023 à aujourd'hui | Lead Developer / DEVOPS</target>
+      <trans-unit id="A60pOPB" resname="From 2023 to 2025 | Lead Developer">
+        <source>From 2023 to 2025 | Lead Developer</source>
+        <target>De 2023 à 2025 | Lead Developer</target>
       </trans-unit>
       <trans-unit id="rsJwm0N" resname="Design and implementation of scalable and resilient software architectures. Management of deployment pipelines and automation of continuous delivery processes.">
         <source>Design and implementation of scalable and resilient software architectures. Management of deployment pipelines and automation of continuous delivery processes.</source>
@@ -570,13 +565,69 @@
         <source>From 2017 to 2018 | Junior Fullstack Developer</source>
         <target>De 2017 à 2018 | Développeur Fullstack Junior</target>
       </trans-unit>
-      <trans-unit id="dUQYl.x" resname="From the design to the administration of the websites, I ensured that the platforms were high-performance, secure and adapted to our customers' needs. Each site was a unique challenge that I met with passion.">
+      <trans-unit id="moV63ZI" resname="From the design to the administration of the websites, I ensured that the platforms were high-performance, secure and adapted to our customers' needs. Each site was a unique challenge that I met with passion.">
         <source>From the design to the administration of the websites, I ensured that the platforms were high-performance, secure and adapted to our customers' needs. Each site was a unique challenge that I met with passion.</source>
         <target>De la conception à l’administration des sites web, je veillais à offrir des plateformes performantes, sécurisées et adaptées aux besoins de nos clients. Chaque site était un challenge unique que je relevais avec passion.</target>
       </trans-unit>
-      <trans-unit id="IdUCuyz" resname="Confident in my ability to work effectively in a fast-paced environment and leverage my web and mobile development skills to ensure the team's success. Always willing to learn and go the extra mile to advance projects and achieve goals.">
+      <trans-unit id="ttIRFWU" resname="Confident in my ability to work effectively in a fast-paced environment and leverage my web and mobile development skills to ensure the team's success. Always willing to learn and go the extra mile to advance projects and achieve goals.">
         <source>Confident in my ability to work effectively in a fast-paced environment and leverage my web and mobile development skills to ensure the team's success. Always willing to learn and go the extra mile to advance projects and achieve goals.</source>
         <target>Confiant dans ma capacité à travailler efficacement dans un environnement en évolution rapide et à tirer parti de mes compétences en développement web et mobile, pour assurer le succès de l'équipe. Toujours prêt à apprendre et à faire des efforts supplémentaires pour faire progresser les projets et atteindre les objectifs.</target>
+      </trans-unit>
+      <trans-unit id="qBN94Nx" resname="Chief Digital Officer">
+        <source>Chief Digital Officer</source>
+        <target>__Chief Digital Officer</target>
+      </trans-unit>
+      <trans-unit id="Xl87Od2" resname="Tools &amp; DevOps">
+        <source>Tools &amp; DevOps</source>
+        <target><![CDATA[Outils & DevOps]]></target>
+      </trans-unit>
+      <trans-unit id="o0CgJWZ" resname="Knowledge of web security best practices (XSS, CSRF, authentication, etc.)">
+        <source>Knowledge of web security best practices (XSS, CSRF, authentication, etc.)</source>
+        <target>Connaissance des bonnes pratiques de sécurité web (XSS, CSRF, authentification, etc.)</target>
+      </trans-unit>
+      <trans-unit id="MKargRW" resname="API integration, REST architecture, responsive design, collaborative UX.">
+        <source>API integration, REST architecture, responsive design, collaborative UX.</source>
+        <target>Intégration d’APIs, architecture REST, responsive design, UX collaboratif.</target>
+      </trans-unit>
+      <trans-unit id="pAXpadT" resname="Passionate full-stack developer with over 5 years of experience, combining backend expertise (PHP/Symfony/Laravel, Python/Django) with frontend skills (Vue.js). Specialized in building high-performance, scalable, and secure web applications with a product-oriented, UX-focused, and DevOps-driven approach.">
+        <source>Passionate full-stack developer with over 5 years of experience, combining backend expertise (PHP/Symfony/Laravel, Python/Django) with frontend skills (Vue.js). Specialized in building high-performance, scalable, and secure web applications with a product-oriented, UX-focused, and DevOps-driven approach.</source>
+        <target>Développeur full-stack passionné avec plus de 5 ans d’expérience, alliant expertise backend (PHP/Symfony/Laravel, Python/Django) et frontend (Vue.js). Spécialisé dans la conception d’applications web performantes, évolutives et sécurisées, avec une approche orientée produit, UX et DevOps.</target>
+      </trans-unit>
+      <trans-unit id="w30F3RQ" resname="Team leadership, scalable architecture, full-stack project oversight, cloud deployment management (AWS, Azure), and strategic collaboration with stakeholders.">
+        <source>Team leadership, scalable architecture, full-stack project oversight, cloud deployment management (AWS, Azure), and strategic collaboration with stakeholders.</source>
+        <target>Encadrement d’équipe, architecture scalable, supervision de projets full-stack, gestion de déploiements cloud (AWS, Azure) et collaboration stratégique avec les parties prenantes.</target>
+      </trans-unit>
+      <trans-unit id="EYuf.Nz" resname="Web development with Django, Laravel, and Vue.js; API integration, CI/CD, Docker containerization, performance optimization, and close collaboration with product and design teams.">
+        <source>Web development with Django, Laravel, and Vue.js; API integration, CI/CD, Docker containerization, performance optimization, and close collaboration with product and design teams.</source>
+        <target>Développement web avec Django, Laravel, Vue.js ; intégration d’APIs, CI/CD, conteneurisation Docker, optimisation des performances et collaboration produit/design.</target>
+      </trans-unit>
+      <trans-unit id="kLV7hH2" resname="API development with Laravel/Symfony, database management (MySQL, PostgreSQL, MongoDB), application maintenance, and continuous improvement.">
+        <source>API development with Laravel/Symfony, database management (MySQL, PostgreSQL, MongoDB), application maintenance, and continuous improvement.</source>
+        <target>Développement d’APIs avec Laravel/Symfony, gestion de bases de données (MySQL, PostgreSQL, MongoDB), maintenance applicative et amélioration continue.</target>
+      </trans-unit>
+      <trans-unit id="gM0jn7e" resname="Languages &amp; Frameworks">
+        <source>Languages &amp; Frameworks</source>
+        <target><![CDATA[Langages & Frameworks]]></target>
+      </trans-unit>
+      <trans-unit id="bk4IIR3" resname="Databases">
+        <source>Databases</source>
+        <target>Bases de données</target>
+      </trans-unit>
+      <trans-unit id="8dn7uBl" resname="Security">
+        <source>Security</source>
+        <target>Sécurité</target>
+      </trans-unit>
+      <trans-unit id="sT5mEGg" resname="Others">
+        <source>Others</source>
+        <target>Autres</target>
+      </trans-unit>
+      <trans-unit id="GCs_oac" resname="Team spirit and ability to collaborate with product, design, and technical teams.">
+        <source>Team spirit and ability to collaborate with product, design, and technical teams.</source>
+        <target>Esprit d’équipe et capacité à collaborer avec les équipes produit, design et technique.</target>
+      </trans-unit>
+      <trans-unit id="hpFQhn." resname="Autonomy, curiosity, and a constant desire to learn new technologies.">
+        <source>Autonomy, curiosity, and a constant desire to learn new technologies.</source>
+        <target>Autonomie, curiosité, et envie constante d’apprendre de nouvelles technologies.</target>
       </trans-unit>
     </body>
   </file>
