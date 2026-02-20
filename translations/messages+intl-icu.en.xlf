@@ -605,17 +605,17 @@
         <source>User Experience (UX) is a key success factor for any website or application. Good UX design can increase user engagement, reduce bounce rates, and improve overall user satisfaction. Here are some best practices for optimizing UX in web development...</source>
         <target>User Experience (UX) is a key success factor for any website or application. Good UX design can increase user engagement, reduce bounce rates, and improve overall user satisfaction. Here are some best practices for optimizing UX in web development...</target>
       </trans-unit>
-      <trans-unit id="pAXpadT" resname="Passionate full-stack developer with over 5 years of experience, combining backend expertise (PHP/Symfony/Laravel, Python/Django) with frontend skills (Vue.js). Specialized in building high-performance, scalable, and secure web applications with a product-oriented, UX-focused, and DevOps-driven approach.">
-        <source>Passionate full-stack developer with over 5 years of experience, combining backend expertise (PHP/Symfony/Laravel, Python/Django) with frontend skills (Vue.js). Specialized in building high-performance, scalable, and secure web applications with a product-oriented, UX-focused, and DevOps-driven approach.</source>
-        <target>Passionate full-stack developer with over 5 years of experience, combining backend expertise (PHP/Symfony/Laravel, Python/Django) with frontend skills (Vue.js). Specialized in building high-performance, scalable, and secure web applications with a product-oriented, UX-focused, and DevOps-driven approach.</target>
+      <trans-unit id="pAXpadT" resname="Passionate full-stack developer with over 5 years of experience, combining backend expertise (PHP - Symfony and Laravel) with frontend skills (React.js, Vue.js). Specialized in building high-performance, scalable, and secure web applications with a product-oriented, UX-focused, and DevOps-driven approach.">
+        <source>Passionate full-stack developer with over 5 years of experience, combining backend expertise (PHP - Symfony and Laravel) with frontend skills (React.js, Vue.js). Specialized in building high-performance, scalable, and secure web applications with a product-oriented, UX-focused, and DevOps-driven approach.</source>
+        <target>Passionate full-stack developer with over 5 years of experience, combining backend expertise (PHP - Symfony and Laravel) with frontend skills (React.js, Vue.js). Specialized in building high-performance, scalable, and secure web applications with a product-oriented, UX-focused, and DevOps-driven approach.</target>
       </trans-unit>
       <trans-unit id="A60pOPB" resname="From 2023 to 2025 | Lead Developer">
         <source>From 2023 to 2025 | Lead Developer</source>
         <target>From 2023 to 2025 | Lead Developer</target>
       </trans-unit>
-      <trans-unit id="w30F3RQ" resname="Team leadership, scalable architecture, full-stack project oversight, cloud deployment management (AWS, Azure), and strategic collaboration with stakeholders.">
-        <source>Team leadership, scalable architecture, full-stack project oversight, cloud deployment management (AWS, Azure), and strategic collaboration with stakeholders.</source>
-        <target>Team leadership, scalable architecture, full-stack project oversight, cloud deployment management (AWS, Azure), and strategic collaboration with stakeholders.</target>
+      <trans-unit id="w30F3RQ" resname="Team leadership, scalable architecture, full-stack project oversight, cloud deployment management (AWS), and strategic collaboration with stakeholders.">
+        <source>Team leadership, scalable architecture, full-stack project oversight, cloud deployment management (AWS), and strategic collaboration with stakeholders.</source>
+        <target>Team leadership, scalable architecture, full-stack project oversight, cloud deployment management (AWS), and strategic collaboration with stakeholders.</target>
       </trans-unit>
       <trans-unit id="vvHHPf8" resname="From 2019 to 2023 | Senior Fullstack Developer">
         <source>From 2019 to 2023 | Senior Fullstack Developer</source>

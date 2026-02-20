@@ -589,13 +589,13 @@
         <source>API integration, REST architecture, responsive design, collaborative UX.</source>
         <target>Intégration d’APIs, architecture REST, responsive design, UX collaboratif.</target>
       </trans-unit>
-      <trans-unit id="pAXpadT" resname="Passionate full-stack developer with over 5 years of experience, combining backend expertise (PHP/Symfony/Laravel, Python/Django) with frontend skills (Vue.js). Specialized in building high-performance, scalable, and secure web applications with a product-oriented, UX-focused, and DevOps-driven approach.">
-        <source>Passionate full-stack developer with over 5 years of experience, combining backend expertise (PHP/Symfony/Laravel, Python/Django) with frontend skills (Vue.js). Specialized in building high-performance, scalable, and secure web applications with a product-oriented, UX-focused, and DevOps-driven approach.</source>
-        <target>Développeur full-stack passionné avec plus de 5 ans d’expérience, alliant expertise backend (PHP/Symfony/Laravel, Python/Django) et frontend (Vue.js). Spécialisé dans la conception d’applications web performantes, évolutives et sécurisées, avec une approche orientée produit, UX et DevOps.</target>
+      <trans-unit id="pAXpadT" resname="Passionate full-stack developer with over 5 years of experience, combining backend expertise (PHP - Symfony and Laravel) with frontend skills (React.js, Vue.js). Specialized in building high-performance, scalable, and secure web applications with a product-oriented, UX-focused, and DevOps-driven approach.">
+        <source>Passionate full-stack developer with over 5 years of experience, combining backend expertise (PHP - Symfony and Laravel) with frontend skills (React.js, Vue.js). Specialized in building high-performance, scalable, and secure web applications with a product-oriented, UX-focused, and DevOps-driven approach.</source>
+        <target>Développeur full-stack passionné avec plus de 5 ans d’expérience, alliant expertise backend (PHP - Symfony et Laravel) et frontend (React.js, Vue.js). Spécialisé dans la conception d’applications web performantes, évolutives et sécurisées, avec une approche orientée produit, UX et DevOps.</target>
       </trans-unit>
-      <trans-unit id="w30F3RQ" resname="Team leadership, scalable architecture, full-stack project oversight, cloud deployment management (AWS, Azure), and strategic collaboration with stakeholders.">
-        <source>Team leadership, scalable architecture, full-stack project oversight, cloud deployment management (AWS, Azure), and strategic collaboration with stakeholders.</source>
-        <target>Encadrement d’équipe, architecture scalable, supervision de projets full-stack, gestion de déploiements cloud (AWS, Azure) et collaboration stratégique avec les parties prenantes.</target>
+      <trans-unit id="w30F3RQ" resname="Team leadership, scalable architecture, full-stack project oversight, cloud deployment management (AWS), and strategic collaboration with stakeholders.">
+        <source>Team leadership, scalable architecture, full-stack project oversight, cloud deployment management (AWS), and strategic collaboration with stakeholders.</source>
+        <target>Encadrement d’équipe, architecture scalable, supervision de projets full-stack, gestion de déploiements cloud (AWS) et collaboration stratégique avec les parties prenantes.</target>
       </trans-unit>
       <trans-unit id="EYuf.Nz" resname="Web development with Django, Laravel, and Vue.js; API integration, CI/CD, Docker containerization, performance optimization, and close collaboration with product and design teams.">
         <source>Web development with Django, Laravel, and Vue.js; API integration, CI/CD, Docker containerization, performance optimization, and close collaboration with product and design teams.</source>
